@@ -1,0 +1,19 @@
+﻿@model FlashMoney.DTO.AddCardDTO
+<div class="card form-card">
+    <!-- Success & Error -->
+    <div class="form-section alert sub success active">
+        <div class="head">
+            <h4>Add New Card</h4>
+        </div>
+        <img src="~/assets/img/png/alert-success.png" class="success-img" />
+        <img src="~/assets/img/png/alert-error.png" class="error-img" />
+
+        <h3>Add New Card Successful!!</h3>
+        <p>
+            Your card <strong>(@Model.CardNumberFux)</strong> has been added to your account, you can now fund
+            your wallet and perform other card related actions
+        </p>
+
+        <a class="btn btn-primary" asp-action="Index" asp-controller="Card">Continue</a>
+    </div>
+</div>

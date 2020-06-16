@@ -1,0 +1,625 @@
+2019-11-14 08:37:24.889 +01:00 INF Application started
+2019-11-14 08:37:24.890 +01:00 INF Application started
+2019-11-14 08:37:28.546 +01:00 INF HTTP GET /api/values responded 200 in 806.26350180024008 ms
+2019-11-14 08:37:28.883 +01:00 INF HTTP GET /favicon.ico responded 404 in 1.7228963861848245 ms
+2019-11-14 08:37:29.443 +01:00 INF HTTP GET / responded 302 in 267.31964261901589 ms
+2019-11-14 08:37:29.617 +01:00 INF User requested the Login page
+2019-11-14 08:37:30.101 +01:00 INF HTTP GET /Auth/SignIn?ReturnUrl=%2F responded 200 in 559.67595679423926 ms
+2019-11-14 08:37:49.808 +01:00 INF User tries to log in
+2019-11-14 08:37:50.496 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'AirtimeRecharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 08:37:50.500 +01:00 WRN No type was specified for the decimal column 'LastDebited' on entity type 'CardDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 08:37:50.500 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'TransactionHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 08:37:50.500 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Transfer'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 08:37:50.500 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'UserTransaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 08:37:50.500 +01:00 WRN No type was specified for the decimal column 'AvailableBalance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 08:37:50.500 +01:00 WRN No type was specified for the decimal column 'CurrentBallance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 08:37:50.501 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Withdrawal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 08:37:52.072 +01:00 INF HTTP POST /flashmoney/Login responded 200 in 3167.561008134418 ms
+2019-11-14 08:37:52.156 +01:00 INF HTTP POST /Auth/SignIn?returnUrl=%2F responded 302 in 6123.628039294128 ms
+2019-11-14 08:37:58.825 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 6500.04133884518 ms
+2019-11-14 08:37:59.102 +01:00 INF HTTP GET / responded 200 in 6919.9968884740183 ms
+2019-11-14 08:37:59.371 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.63252878161532644 ms
+2019-11-14 08:37:59.371 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.28937191625550074 ms
+2019-11-14 08:37:59.371 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 1.051695781659777 ms
+2019-11-14 08:37:59.486 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.56185269146997374 ms
+2019-11-14 08:38:00.343 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 228.86207049828866 ms
+2019-11-14 08:38:00.474 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 535.25892341201052 ms
+2019-11-14 09:38:39.625 +01:00 INF Application started
+2019-11-14 09:38:39.629 +01:00 INF Application started
+2019-11-14 09:38:43.146 +01:00 INF HTTP GET /api/values responded 200 in 571.46317700249438 ms
+2019-11-14 09:38:43.504 +01:00 INF HTTP GET /favicon.ico responded 404 in 1.7067850037602608 ms
+2019-11-14 09:38:44.072 +01:00 INF HTTP GET / responded 302 in 151.07891924951241 ms
+2019-11-14 09:38:44.287 +01:00 INF User requested the Login page
+2019-11-14 09:38:44.668 +01:00 INF HTTP GET /Auth/SignIn?ReturnUrl=%2F responded 200 in 512.95600939442909 ms
+2019-11-14 09:39:07.033 +01:00 INF 07063733947 tries to log in
+2019-11-14 09:39:07.496 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'AirtimeRecharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 09:39:07.497 +01:00 WRN No type was specified for the decimal column 'LastDebited' on entity type 'CardDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 09:39:07.497 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'TransactionHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 09:39:07.497 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Transfer'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 09:39:07.497 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'UserTransaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 09:39:07.497 +01:00 WRN No type was specified for the decimal column 'AvailableBalance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 09:39:07.498 +01:00 WRN No type was specified for the decimal column 'CurrentBallance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 09:39:07.498 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Withdrawal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 09:39:12.344 +01:00 INF HTTP POST /flashmoney/Login responded 200 in 6208.9780446999885 ms
+2019-11-14 09:39:12.440 +01:00 INF HTTP POST /Auth/SignIn?returnUrl=%2F responded 302 in 7251.66856013128 ms
+2019-11-14 09:40:33.687 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 81161.887224180871 ms
+2019-11-14 09:40:34.137 +01:00 INF HTTP GET / responded 200 in 81682.833565349414 ms
+2019-11-14 09:40:34.221 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 2.0854779264695686 ms
+2019-11-14 09:40:34.304 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 1.1951939778935785 ms
+2019-11-14 09:40:35.249 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.43469680564519142 ms
+2019-11-14 09:40:37.093 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 264.02675029913183 ms
+2019-11-14 09:40:37.127 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 491.29672990660686 ms
+2019-11-14 09:42:17.775 +01:00 INF HTTP GET /flashmoney/History/2347063733947 responded 200 in 166.63066417049359 ms
+2019-11-14 09:42:17.966 +01:00 INF HTTP GET /History responded 200 in 411.21562206090732 ms
+2019-11-14 09:42:19.430 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 2.8273071377393277 ms
+2019-11-14 09:42:19.627 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 1.9521353480507981 ms
+2019-11-14 09:42:20.975 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 154.00001066740629 ms
+2019-11-14 09:42:42.094 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 18179.170200244997 ms
+2019-11-14 09:42:42.129 +01:00 INF HTTP GET / responded 200 in 18296.136976608155 ms
+2019-11-14 09:42:42.199 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.33869014918367674 ms
+2019-11-14 09:42:42.202 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.31068820771573497 ms
+2019-11-14 09:42:42.470 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.34935755545717834 ms
+2019-11-14 09:42:43.106 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 55.159824414492739 ms
+2019-11-14 09:42:43.122 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 254.48475538748465 ms
+2019-11-14 09:46:42.231 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 5902.6176926044654 ms
+2019-11-14 09:46:42.261 +01:00 INF HTTP GET / responded 200 in 6050.9662003232224 ms
+2019-11-14 09:46:42.389 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.616487187556115 ms
+2019-11-14 09:46:42.449 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.84005824403825335 ms
+2019-11-14 09:46:42.501 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.40447248787027013 ms
+2019-11-14 09:46:42.862 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 25.486655963702372 ms
+2019-11-14 09:46:42.870 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 41.545102682674887 ms
+2019-11-14 09:46:52.361 +01:00 INF HTTP POST /flashmoney/QueryReceipient responded 200 in 870.75415006551566 ms
+2019-11-14 09:46:52.540 +01:00 INF HTTP POST /Transaction/Transfer responded 200 in 1240.5317879817444 ms
+2019-11-14 11:05:35.547 +01:00 INF Application started
+2019-11-14 11:05:36.199 +01:00 INF Application started
+2019-11-14 11:05:38.116 +01:00 INF HTTP GET /api/values responded 200 in 413.62201112610472 ms
+2019-11-14 11:05:38.451 +01:00 INF HTTP GET /favicon.ico responded 404 in 1.7774565703222089 ms
+2019-11-14 11:05:38.810 +01:00 INF HTTP GET / responded 302 in 242.36702633604818 ms
+2019-11-14 11:05:38.924 +01:00 INF User requested the Login page
+2019-11-14 11:05:39.245 +01:00 INF HTTP GET /Auth/SignIn?ReturnUrl=%2F responded 200 in 390.84887663322434 ms
+2019-11-14 11:06:14.176 +01:00 INF 07063733947 tries to log in
+2019-11-14 11:06:14.693 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'AirtimeRecharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:06:14.695 +01:00 WRN No type was specified for the decimal column 'LastDebited' on entity type 'CardDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:06:14.696 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'TransactionHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:06:14.696 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Transfer'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:06:14.697 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'UserTransaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:06:14.697 +01:00 WRN No type was specified for the decimal column 'AvailableBalance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:06:14.698 +01:00 WRN No type was specified for the decimal column 'CurrentBallance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:06:14.698 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Withdrawal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:06:17.543 +01:00 INF 07063733947 successfuly to logged in
+2019-11-14 11:06:17.677 +01:00 INF Generating Token..
+2019-11-14 11:06:17.734 +01:00 INF HTTP POST /flashmoney/Login responded 200 in 4375.6722688328609 ms
+2019-11-14 11:06:17.854 +01:00 INF HTTP POST /Auth/SignIn?returnUrl=%2F responded 302 in 5467.7390965773629 ms
+2019-11-14 11:07:06.329 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 46910.462236492844 ms
+2019-11-14 11:07:06.686 +01:00 INF HTTP GET / responded 200 in 48607.582125694047 ms
+2019-11-14 11:07:06.904 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 1.336981586278871 ms
+2019-11-14 11:07:06.904 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 1.4609901842083273 ms
+2019-11-14 11:07:07.029 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.75560794437303214 ms
+2019-11-14 11:07:07.364 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.6689352684008314 ms
+2019-11-14 11:07:07.920 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 186.61204954654633 ms
+2019-11-14 11:07:08.333 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 702.68827527597466 ms
+2019-11-14 11:07:32.744 +01:00 INF HTTP POST /flashmoney/QueryReceipient responded 200 in 688.3623931259234 ms
+2019-11-14 11:07:32.961 +01:00 INF HTTP POST /Transaction/Transfer responded 200 in 1054.8589146625277 ms
+2019-11-14 11:07:40.266 +01:00 INF 2347063733947 initiated a transfer of 100.0 to 07011193512
+2019-11-14 11:07:40.918 +01:00 INF 2347063733947 PIN was not verified for transfer : You have exceeded the maximum PIN trial. Pls visit the nearest FCMB branch or call 012798800 to reset your PIN.
+2019-11-14 11:07:40.927 +01:00 INF HTTP POST /flashmoney/Transfer responded 200 in 708.55934900375314 ms
+2019-11-14 11:07:41.020 +01:00 INF HTTP POST /Transaction/PinTransfer responded 200 in 859.51025937798352 ms
+2019-11-14 11:08:01.922 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 5777.3925658845683 ms
+2019-11-14 11:08:01.940 +01:00 INF HTTP GET / responded 200 in 5859.3275800455494 ms
+2019-11-14 11:08:02.049 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.26268487948497765 ms
+2019-11-14 11:08:02.233 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.2582401268710186 ms
+2019-11-14 11:08:02.233 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.11511909270153842 ms
+2019-11-14 11:08:02.475 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 5.4941587061147352 ms
+2019-11-14 11:08:02.557 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 153.76354982834366 ms
+2019-11-14 11:17:12.966 +01:00 INF Application started
+2019-11-14 11:17:13.045 +01:00 INF Application started
+2019-11-14 11:17:15.713 +01:00 INF HTTP GET /api/values responded 200 in 578.03474374223276 ms
+2019-11-14 11:17:16.152 +01:00 INF HTTP GET /favicon.ico responded 404 in 1.2880893075253217 ms
+2019-11-14 11:17:16.310 +01:00 INF HTTP GET / responded 302 in 217.70264960592823 ms
+2019-11-14 11:17:16.918 +01:00 INF User requested the Login page
+2019-11-14 11:17:17.488 +01:00 INF HTTP GET /Auth/SignIn?ReturnUrl=%2F responded 200 in 1078.8552450747695 ms
+2019-11-14 11:17:40.347 +01:00 INF 07063733947 tries to log in
+2019-11-14 11:17:40.819 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'AirtimeRecharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:17:40.820 +01:00 WRN No type was specified for the decimal column 'LastDebited' on entity type 'CardDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:17:40.820 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'TransactionHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:17:40.821 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Transfer'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:17:40.821 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'UserTransaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:17:40.821 +01:00 WRN No type was specified for the decimal column 'AvailableBalance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:17:40.821 +01:00 WRN No type was specified for the decimal column 'CurrentBallance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:17:40.821 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Withdrawal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:17:47.715 +01:00 INF 07063733947 successfuly to logged in
+2019-11-14 11:17:47.886 +01:00 INF Generating Token..
+2019-11-14 11:17:49.901 +01:00 INF HTTP POST /flashmoney/Login responded 200 in 10333.069315028064 ms
+2019-11-14 11:17:51.598 +01:00 INF HTTP POST /Auth/SignIn?returnUrl=%2F responded 302 in 13103.346276452945 ms
+2019-11-14 11:17:59.678 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 6713.0338814602255 ms
+2019-11-14 11:17:59.883 +01:00 INF HTTP GET / responded 200 in 7686.4449268482613 ms
+2019-11-14 11:17:59.975 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.47647748021640612 ms
+2019-11-14 11:18:00.032 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.580484691383047 ms
+2019-11-14 11:18:00.102 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 1.2067503346898718 ms
+2019-11-14 11:18:00.942 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 187.58945064635591 ms
+2019-11-14 11:18:00.968 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 560.1472813226161 ms
+2019-11-14 11:18:14.003 +01:00 INF HTTP POST /flashmoney/QueryReceipient responded 200 in 463.45124373067642 ms
+2019-11-14 11:18:14.301 +01:00 INF HTTP POST /Transaction/Transfer responded 200 in 867.95928962185826 ms
+2019-11-14 11:18:20.691 +01:00 INF 2347063733947 initiated a transfer of 200.0 to 07011193512
+2019-11-14 11:18:21.252 +01:00 INF 2347063733947 PIN was not verified for transfer : You have exceeded the maximum PIN trial. Pls visit the nearest FCMB branch or call 012798800 to reset your PIN.
+2019-11-14 11:18:21.256 +01:00 INF HTTP POST /flashmoney/Transfer responded 200 in 603.1209274954175 ms
+2019-11-14 11:18:21.307 +01:00 INF HTTP POST /Transaction/PinTransfer responded 200 in 700.96015545966748 ms
+2019-11-14 11:19:35.777 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 7333.5315692999156 ms
+2019-11-14 11:19:35.790 +01:00 INF HTTP GET / responded 200 in 7463.9570565781451 ms
+2019-11-14 11:19:35.932 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.35424678333253329 ms
+2019-11-14 11:19:35.932 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.14489893521506381 ms
+2019-11-14 11:19:35.936 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.23157161118726455 ms
+2019-11-14 11:19:36.046 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.52759213527693472 ms
+2019-11-14 11:19:36.472 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 12.864003015320174 ms
+2019-11-14 11:19:36.483 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 49.704335056119447 ms
+2019-11-14 11:22:33.162 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 193.42718872952969 ms
+2019-11-14 11:22:33.325 +01:00 INF HTTP GET /Settings responded 200 in 413.56911856999864 ms
+2019-11-14 11:22:33.439 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 18.380385484504703 ms
+2019-11-14 11:22:33.458 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.43069652829262828 ms
+2019-11-14 11:22:33.469 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.31024373245433906 ms
+2019-11-14 11:22:33.515 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.37691502166372426 ms
+2019-11-14 11:22:52.342 +01:00 INF HTTP PUT /flashmoney/UpdateUser/2347063733947 responded 204 in 349.984710051008 ms
+2019-11-14 11:22:52.367 +01:00 INF HTTP POST /Settings responded 302 in 611.29882782984066 ms
+2019-11-14 11:22:52.397 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 9.0912969965917636 ms
+2019-11-14 11:22:52.402 +01:00 INF HTTP GET /Settings responded 200 in 27.848597502760192 ms
+2019-11-14 11:22:52.510 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 45.1435743989361 ms
+2019-11-14 11:22:52.525 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.36802551643580622 ms
+2019-11-14 11:22:52.538 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.69960406143714848 ms
+2019-11-14 11:22:52.680 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.24179454219937027 ms
+2019-11-14 11:23:05.052 +01:00 INF HTTP PUT /flashmoney/UpdateUser/2347063733947 responded 204 in 99.415781716421222 ms
+2019-11-14 11:23:05.054 +01:00 INF HTTP POST /Settings responded 302 in 369.87231114690621 ms
+2019-11-14 11:23:05.142 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 5.0665735046518785 ms
+2019-11-14 11:23:05.149 +01:00 INF HTTP GET /Settings responded 200 in 31.922213273453625 ms
+2019-11-14 11:23:05.240 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.69338140777760593 ms
+2019-11-14 11:23:05.244 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.62004298964728222 ms
+2019-11-14 11:23:05.253 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.68449190254968784 ms
+2019-11-14 11:23:05.467 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.23646083906261944 ms
+2019-11-14 11:23:22.906 +01:00 INF HTTP GET /Settings/AuthPin responded 200 in 187.92058471609587 ms
+2019-11-14 11:23:23.002 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.60537530602121747 ms
+2019-11-14 11:23:23.013 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.68093610045852071 ms
+2019-11-14 11:23:23.027 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.26001802791660222 ms
+2019-11-14 11:23:23.097 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.30491002931758826 ms
+2019-11-14 11:34:38.916 +01:00 INF Application started
+2019-11-14 11:34:39.124 +01:00 INF Application started
+2019-11-14 11:34:40.877 +01:00 INF HTTP GET /api/values responded 200 in 562.8683588728818 ms
+2019-11-14 11:34:41.035 +01:00 INF HTTP GET / responded 302 in 201.96155822359239 ms
+2019-11-14 11:34:41.224 +01:00 INF User requested the Login page
+2019-11-14 11:34:41.263 +01:00 INF HTTP GET /favicon.ico responded 404 in 1.4423222232296995 ms
+2019-11-14 11:34:41.530 +01:00 INF HTTP GET /Auth/SignIn?ReturnUrl=%2F responded 200 in 418.94149105449088 ms
+2019-11-14 11:35:06.664 +01:00 INF 07063733947 tries to log in
+2019-11-14 11:35:07.121 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'AirtimeRecharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:35:07.122 +01:00 WRN No type was specified for the decimal column 'LastDebited' on entity type 'CardDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:35:07.122 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'TransactionHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:35:07.122 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Transfer'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:35:07.123 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'UserTransaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:35:07.123 +01:00 WRN No type was specified for the decimal column 'AvailableBalance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:35:07.123 +01:00 WRN No type was specified for the decimal column 'CurrentBallance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:35:07.123 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Withdrawal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 11:35:11.079 +01:00 INF 07063733947 successfuly to logged in
+2019-11-14 11:35:11.161 +01:00 INF Generating Token..
+2019-11-14 11:35:11.272 +01:00 INF HTTP POST /flashmoney/Login responded 200 in 5645.0460565265857 ms
+2019-11-14 11:35:11.325 +01:00 INF HTTP POST /Auth/SignIn?returnUrl=%2F responded 302 in 7125.1277866376513 ms
+2019-11-14 11:35:17.796 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 6303.1681307681774 ms
+2019-11-14 11:35:18.029 +01:00 INF HTTP GET / responded 200 in 6657.4380268143032 ms
+2019-11-14 11:35:19.238 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.87206046285875816 ms
+2019-11-14 11:35:19.238 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.39291613107397666 ms
+2019-11-14 11:35:19.248 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.27157438471289563 ms
+2019-11-14 11:35:20.262 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 314.56669884667559 ms
+2019-11-14 11:35:20.299 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 509.11218733387739 ms
+2019-11-14 11:35:28.146 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 237.20800197702596 ms
+2019-11-14 11:35:28.329 +01:00 INF HTTP GET /Settings responded 200 in 447.54125174901014 ms
+2019-11-14 11:35:28.398 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.50581284746853561 ms
+2019-11-14 11:35:28.398 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.18890198609325803 ms
+2019-11-14 11:35:28.446 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.70271538826691982 ms
+2019-11-14 11:35:52.331 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 15.791317086873578 ms
+2019-11-14 11:35:56.044 +01:00 INF HTTP GET /Settings responded 200 in 4290.858388403818 ms
+2019-11-14 11:35:56.128 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.38269320006187096 ms
+2019-11-14 11:35:56.137 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.33913462444507264 ms
+2019-11-14 11:35:56.209 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 10.518951536195399 ms
+2019-11-14 11:35:56.541 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.28935339516873171 ms
+2019-11-14 11:37:05.782 +01:00 INF HTTP POST /Settings responded 200 in 13868.000181345908 ms
+2019-11-14 11:37:06.459 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.3191332376822571 ms
+2019-11-14 11:37:06.553 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.29468709830548251 ms
+2019-11-14 11:37:06.747 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.49158963910386677 ms
+2019-11-14 11:38:18.642 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 6851.4928146129241 ms
+2019-11-14 11:38:18.668 +01:00 INF HTTP GET / responded 200 in 7045.1791324198475 ms
+2019-11-14 11:38:18.742 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.544482195209979 ms
+2019-11-14 11:38:18.769 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.53203688789089376 ms
+2019-11-14 11:38:18.780 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 1.5627750190679888 ms
+2019-11-14 11:38:19.119 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 67.5917974757361 ms
+2019-11-14 11:38:19.126 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 150.73622882297616 ms
+2019-11-14 11:38:28.881 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 18.064363573652219 ms
+2019-11-14 11:38:29.431 +01:00 INF HTTP GET /Settings responded 200 in 612.60869642517434 ms
+2019-11-14 11:38:29.482 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.83561349142429431 ms
+2019-11-14 11:38:29.499 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 2.1148132937216979 ms
+2019-11-14 11:38:29.516 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.30757688088596363 ms
+2019-11-14 11:38:29.552 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.23512741327843176 ms
+2019-11-14 11:38:47.568 +01:00 INF HTTP POST /Settings responded 200 in 3772.2473202586489 ms
+2019-11-14 11:38:47.663 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.34002357496786445 ms
+2019-11-14 11:38:47.667 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.17556772825138098 ms
+2019-11-14 11:38:47.689 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.25157299795008009 ms
+2019-11-14 11:38:47.828 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 1.5325507012930675 ms
+2019-11-14 11:39:29.414 +01:00 INF HTTP POST /Settings responded 200 in 25719.267647001303 ms
+2019-11-14 11:39:29.540 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.47469957917082251 ms
+2019-11-14 11:39:29.575 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.49603439171782576 ms
+2019-11-14 11:39:29.580 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.45114239031683973 ms
+2019-11-14 11:39:29.784 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.70938251718785839 ms
+2019-11-14 11:39:54.301 +01:00 INF HTTP POST /Settings responded 302 in 11784.483279729617 ms
+2019-11-14 11:39:54.338 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 16.976732609016448 ms
+2019-11-14 11:39:54.372 +01:00 INF HTTP GET /Settings responded 200 in 65.657885613402527 ms
+2019-11-14 11:39:54.429 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.41914017149633487 ms
+2019-11-14 11:39:54.431 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.31379953454550624 ms
+2019-11-14 11:39:54.439 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.25423984951845552 ms
+2019-11-14 11:43:24.525 +01:00 INF HTTP PUT /flashmoney/UpdateUser/2347063733947 responded 204 in 482.04008811277583 ms
+2019-11-14 11:43:24.531 +01:00 INF HTTP POST /Settings responded 302 in 179599.25888194915 ms
+2019-11-14 11:43:24.576 +01:00 INF HTTP GET /Settings responded 302 in 2.7646361258825056 ms
+2019-11-14 11:43:24.597 +01:00 INF User requested the Login page
+2019-11-14 11:43:24.602 +01:00 INF HTTP GET /Auth/SignIn?ReturnUrl=%2FSettings responded 200 in 6.6986866644976271 ms
+2019-11-14 11:43:35.507 +01:00 INF 07063733947 tries to log in
+2019-11-14 11:43:35.753 +01:00 INF 07063733947 successfuly to logged in
+2019-11-14 11:43:35.773 +01:00 INF Generating Token..
+2019-11-14 11:43:35.777 +01:00 INF HTTP POST /flashmoney/Login responded 200 in 272.10331027395677 ms
+2019-11-14 11:43:35.781 +01:00 INF HTTP POST /Auth/SignIn?returnUrl=%2FSettings responded 302 in 292.80207872190249 ms
+2019-11-14 11:43:35.929 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 57.495986388389596 ms
+2019-11-14 11:43:35.934 +01:00 INF HTTP GET /Settings responded 200 in 95.7759738008502 ms
+2019-11-14 11:43:36.007 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.45825399449917414 ms
+2019-11-14 11:43:36.015 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.54003744259602 ms
+2019-11-14 11:43:36.062 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.41513989414377173 ms
+2019-11-14 11:43:36.125 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.25068404742728828 ms
+2019-11-14 11:44:05.281 +01:00 INF HTTP POST /Settings responded 302 in 10348.550832857745 ms
+2019-11-14 11:44:05.411 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 46.044970229046989 ms
+2019-11-14 11:44:05.449 +01:00 INF HTTP GET /Settings responded 200 in 150.79223270591206 ms
+2019-11-14 11:44:05.950 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.96184446566073023 ms
+2019-11-14 11:44:05.978 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.23068266066447274 ms
+2019-11-14 11:44:05.998 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.41513989414377173 ms
+2019-11-14 11:44:06.310 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.6693797436622273 ms
+2019-11-14 11:44:54.774 +01:00 INF HTTP POST /Settings responded 302 in 13966.342555306057 ms
+2019-11-14 11:44:54.872 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 29.829179267540326 ms
+2019-11-14 11:44:54.882 +01:00 INF HTTP GET /Settings responded 200 in 85.644604692592026 ms
+2019-11-14 11:44:54.994 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.42358492411029386 ms
+2019-11-14 11:44:55.083 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 1.4858807988464977 ms
+2019-11-14 11:44:55.093 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.38047082375489144 ms
+2019-11-14 11:46:49.727 +01:00 INF HTTP POST /Settings responded 302 in 107158.56477160194 ms
+2019-11-14 11:46:49.806 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 37.337699858301285 ms
+2019-11-14 11:46:49.813 +01:00 INF HTTP GET /Settings responded 200 in 71.00936776060918 ms
+2019-11-14 11:46:49.945 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.50003466907038885 ms
+2019-11-14 11:46:49.948 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.24001664115378665 ms
+2019-11-14 11:46:49.950 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.30446555405619236 ms
+2019-11-14 11:47:03.136 +01:00 INF HTTP POST /Settings responded 302 in 6785.0219837464283 ms
+2019-11-14 11:47:03.262 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 12.043057207521944 ms
+2019-11-14 11:47:03.269 +01:00 INF HTTP GET /Settings responded 200 in 68.147836027742372 ms
+2019-11-14 11:47:03.350 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.34091252549065626 ms
+2019-11-14 11:47:03.468 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 1.2396415040331685 ms
+2019-11-14 11:47:03.515 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 46.564117334357405 ms
+2019-11-14 11:47:59.134 +01:00 INF HTTP POST /Settings responded 200 in 32708.127763524939 ms
+2019-11-14 11:47:59.204 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.2582401268710186 ms
+2019-11-14 11:47:59.209 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.26979648366731207 ms
+2019-11-14 11:47:59.211 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.1777901045583605 ms
+2019-11-14 11:49:02.445 +01:00 INF HTTP PUT /flashmoney/UpdateUser/2347063733947 responded 204 in 138.44204309276554 ms
+2019-11-14 11:49:02.446 +01:00 INF HTTP POST /Settings responded 302 in 4918.2578881024638 ms
+2019-11-14 11:49:02.661 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 43.614579499734205 ms
+2019-11-14 11:49:02.668 +01:00 INF HTTP GET /Settings responded 200 in 195.07574747404709 ms
+2019-11-14 11:49:02.994 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.32713379238738333 ms
+2019-11-14 11:49:02.995 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.23157161118726455 ms
+2019-11-14 11:49:03.056 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.5969302760546954 ms
+2019-11-14 11:49:03.299 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 1.8872419598869965 ms
+2019-11-14 11:49:12.391 +01:00 INF HTTP POST /Settings responded 200 in 25.925797521961524 ms
+2019-11-14 11:49:12.508 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.4791443317847815 ms
+2019-11-14 11:49:12.567 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 5.52616092493524 ms
+2019-11-14 11:49:12.655 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.23957216589239075 ms
+2019-11-14 11:50:19.088 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 38.005746176179329 ms
+2019-11-14 11:50:43.282 +01:00 INF HTTP GET /Settings responded 200 in 24301.727141970732 ms
+2019-11-14 11:50:43.366 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.35069098124136605 ms
+2019-11-14 11:50:43.373 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.22001525439097111 ms
+2019-11-14 11:50:43.384 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.24579481955193339 ms
+2019-11-14 11:50:43.434 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.4075838147000414 ms
+2019-11-14 11:51:26.435 +01:00 INF HTTP PUT /flashmoney/UpdateUser/2347063733947 responded 204 in 19.600470077036451 ms
+2019-11-14 11:51:26.437 +01:00 INF HTTP POST /Settings responded 302 in 9337.4376178970633 ms
+2019-11-14 11:51:26.505 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 7.1747196694526378 ms
+2019-11-14 11:51:26.512 +01:00 INF HTTP GET /Settings responded 200 in 29.836735346984057 ms
+2019-11-14 11:51:26.569 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.24357244324495386 ms
+2019-11-14 11:51:26.597 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.60537530602121747 ms
+2019-11-14 11:51:26.606 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.21957077912957521 ms
+2019-11-14 11:51:26.888 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.328467218171571 ms
+2019-11-14 11:51:40.602 +01:00 INF HTTP GET /Settings/Password responded 200 in 208.73980595987987 ms
+2019-11-14 11:51:40.706 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.64671150533103627 ms
+2019-11-14 11:51:40.754 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.43025205303123237 ms
+2019-11-14 11:51:40.784 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.78227646005678619 ms
+2019-11-14 11:51:40.949 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.283575216770585 ms
+2019-11-14 11:51:49.776 +01:00 INF HTTP GET /Settings/AuthPin responded 200 in 214.01883863947901 ms
+2019-11-14 11:51:49.900 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.48847831227409544 ms
+2019-11-14 11:51:49.930 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.40891724048422912 ms
+2019-11-14 11:51:49.982 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.42491834989448157 ms
+2019-11-14 11:51:50.287 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.22934923488028502 ms
+2019-11-14 11:54:49.936 +01:00 INF HTTP POST /flashmoney/ResetPin responded 400 in 79940.881678907521 ms
+2019-11-14 11:54:49.964 +01:00 INF HTTP POST /Settings/AuthPin responded 200 in 88255.989748622567 ms
+2019-11-14 11:54:50.045 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.34357937705903163 ms
+2019-11-14 11:54:50.046 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.25335089899566371 ms
+2019-11-14 11:54:50.046 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.13156467737318675 ms
+2019-11-14 11:54:50.206 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.711160418233442 ms
+2019-11-14 12:23:43.192 +01:00 INF Application started
+2019-11-14 12:23:43.308 +01:00 INF Application started
+2019-11-14 12:23:52.506 +01:00 INF HTTP GET /api/values responded 200 in 2321.1996031724866 ms
+2019-11-14 12:23:52.813 +01:00 INF HTTP GET /favicon.ico responded 404 in 1.6587816755295033 ms
+2019-11-14 12:23:52.801 +01:00 INF HTTP GET / responded 302 in 458.88337146931076 ms
+2019-11-14 12:23:53.038 +01:00 INF User requested the Login page
+2019-11-14 12:23:53.333 +01:00 INF HTTP GET /Auth/SignIn?ReturnUrl=%2F responded 200 in 450.04142509436213 ms
+2019-11-14 12:24:11.368 +01:00 INF 07063733947 tries to log in
+2019-11-14 12:24:11.959 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'AirtimeRecharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:24:11.960 +01:00 WRN No type was specified for the decimal column 'LastDebited' on entity type 'CardDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:24:11.960 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'TransactionHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:24:11.961 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Transfer'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:24:11.961 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'UserTransaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:24:11.961 +01:00 WRN No type was specified for the decimal column 'AvailableBalance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:24:11.961 +01:00 WRN No type was specified for the decimal column 'CurrentBallance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:24:11.961 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Withdrawal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:24:16.873 +01:00 INF 07063733947 successfuly to logged in
+2019-11-14 12:24:17.166 +01:00 INF Generating Token..
+2019-11-14 12:24:17.256 +01:00 INF HTTP POST /flashmoney/Login responded 200 in 7141.0191106583388 ms
+2019-11-14 12:24:17.359 +01:00 INF HTTP POST /Auth/SignIn?returnUrl=%2F responded 302 in 8434.1332110137409 ms
+2019-11-14 12:24:57.547 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 39950.828146307031 ms
+2019-11-14 12:24:57.737 +01:00 INF HTTP GET / responded 200 in 40285.960271023236 ms
+2019-11-14 12:24:57.870 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.41113961679120864 ms
+2019-11-14 12:24:57.882 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.61426481124913546 ms
+2019-11-14 12:24:58.156 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.4738106286480307 ms
+2019-11-14 12:24:58.735 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 181.17745052545865 ms
+2019-11-14 12:24:58.782 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 284.38638412263248 ms
+2019-11-14 12:25:14.912 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 247.33181500584041 ms
+2019-11-14 12:25:15.045 +01:00 INF HTTP GET /Settings responded 200 in 404.19513530715909 ms
+2019-11-14 12:25:15.103 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.95117705938722863 ms
+2019-11-14 12:25:15.103 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 1.642336090857855 ms
+2019-11-14 12:25:15.251 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.24490586902914158 ms
+2019-11-14 12:25:28.233 +01:00 INF 2347063733947 Updated Profile
+2019-11-14 12:25:28.434 +01:00 INF HTTP PUT /flashmoney/UpdateUser/2347063733947 responded 204 in 243.31775892017401 ms
+2019-11-14 12:25:28.546 +01:00 INF HTTP POST /Settings responded 200 in 6558.4209394073541 ms
+2019-11-14 12:25:28.643 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.63382172275055515 ms
+2019-11-14 12:25:28.659 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.29557604882827432 ms
+2019-11-14 12:25:28.894 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.28001941467941777 ms
+2019-11-14 12:25:54.113 +01:00 INF HTTP GET /Settings/Password responded 200 in 168.9072664593634 ms
+2019-11-14 12:25:54.189 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.4271407262014611 ms
+2019-11-14 12:25:54.191 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.38447110110745458 ms
+2019-11-14 12:25:54.294 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.43380785512239961 ms
+2019-11-14 12:26:20.670 +01:00 INF HTTP POST /Settings/Password responded 200 in 45.425371714661104 ms
+2019-11-14 12:26:20.747 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.30535450457898416 ms
+2019-11-14 12:26:20.778 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.30046527670362921 ms
+2019-11-14 12:26:20.801 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.46936587603407171 ms
+2019-11-14 12:28:10.576 +01:00 INF HTTP GET /Settings/AuthPin responded 200 in 172.28972319858622 ms
+2019-11-14 12:28:10.787 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.48092223283036512 ms
+2019-11-14 12:28:10.827 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.23112713592586864 ms
+2019-11-14 12:28:10.958 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.2884644446459399 ms
+2019-11-14 12:32:24.758 +01:00 INF HTTP POST /flashmoney/ResetPin responded 200 in 19620.883047891319 ms
+2019-11-14 12:32:24.777 +01:00 INF HTTP POST /Settings/AuthPin responded 200 in 22606.876743454213 ms
+2019-11-14 12:32:24.866 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.47292167812523889 ms
+2019-11-14 12:32:24.877 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.3609139122534718 ms
+2019-11-14 12:32:25.033 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.31868876242086119 ms
+2019-11-14 12:34:06.883 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 114.6657279349146 ms
+2019-11-14 12:34:07.106 +01:00 INF HTTP GET /Settings/TransactionPin responded 200 in 385.43916822677483 ms
+2019-11-14 12:34:07.231 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.39824983421072752 ms
+2019-11-14 12:34:07.258 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.29779842513525384 ms
+2019-11-14 12:34:07.756 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.31291058402271449 ms
+2019-11-14 12:34:39.508 +01:00 INF 2347063733947 successfully created a TAP
+2019-11-14 12:34:39.542 +01:00 INF HTTP POST /flashmoney/Create2FA responded 200 in 9251.717896885295 ms
+2019-11-14 12:34:39.679 +01:00 INF HTTP POST /Settings/TransactionPinSetUp responded 200 in 12938.585519707143 ms
+2019-11-14 12:34:46.594 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 14.399220568181617 ms
+2019-11-14 12:34:46.610 +01:00 INF HTTP GET /Settings/TransactionPin responded 200 in 47.086375766497589 ms
+2019-11-14 12:34:46.693 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.24223901746076618 ms
+2019-11-14 12:34:46.728 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 35.206885455169335 ms
+2019-11-14 12:34:46.905 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.23423846275563995 ms
+2019-11-14 12:35:06.791 +01:00 INF HTTP GET /Settings/Password responded 200 in 3.2384467545305364 ms
+2019-11-14 12:35:06.937 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 1.952579823312194 ms
+2019-11-14 12:35:06.951 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.73782893391719606 ms
+2019-11-14 12:35:07.126 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.32135561398923657 ms
+2019-11-14 12:38:39.970 +01:00 INF Application started
+2019-11-14 12:38:39.995 +01:00 INF Application started
+2019-11-14 12:38:41.751 +01:00 INF HTTP GET /api/values responded 200 in 474.26710474148427 ms
+2019-11-14 12:38:42.004 +01:00 INF HTTP GET /favicon.ico responded 404 in 1.3312034078807242 ms
+2019-11-14 12:38:42.142 +01:00 INF HTTP GET / responded 302 in 274.55503581581655 ms
+2019-11-14 12:38:42.300 +01:00 INF User requested the Login page
+2019-11-14 12:38:42.588 +01:00 INF HTTP GET /Auth/SignIn?ReturnUrl=%2F responded 200 in 343.79005833293331 ms
+2019-11-14 12:39:04.553 +01:00 INF 07063733947 tries to log in
+2019-11-14 12:39:05.277 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'AirtimeRecharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:39:05.278 +01:00 WRN No type was specified for the decimal column 'LastDebited' on entity type 'CardDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:39:05.278 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'TransactionHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:39:05.278 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Transfer'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:39:05.278 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'UserTransaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:39:05.279 +01:00 WRN No type was specified for the decimal column 'AvailableBalance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:39:05.279 +01:00 WRN No type was specified for the decimal column 'CurrentBallance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:39:05.279 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Withdrawal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:39:06.297 +01:00 INF 07063733947 successfuly to logged in
+2019-11-14 12:39:06.398 +01:00 INF Generating Token..
+2019-11-14 12:39:06.435 +01:00 INF HTTP POST /flashmoney/Login responded 200 in 2746.9735679451551 ms
+2019-11-14 12:39:06.558 +01:00 INF HTTP POST /Auth/SignIn?returnUrl=%2F responded 302 in 3805.8963199226259 ms
+2019-11-14 12:39:14.410 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 7649.9868435322624 ms
+2019-11-14 12:39:14.634 +01:00 INF HTTP GET / responded 200 in 8045.5409352826236 ms
+2019-11-14 12:39:14.803 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.81116735204751977 ms
+2019-11-14 12:39:14.816 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.3244669408190079 ms
+2019-11-14 12:39:15.020 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.38135977427768325 ms
+2019-11-14 12:39:15.547 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 117.00277885933424 ms
+2019-11-14 12:39:15.568 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 227.63356037129685 ms
+2019-11-14 12:40:07.226 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 291.4019816485054 ms
+2019-11-14 12:40:07.383 +01:00 INF HTTP GET /Settings responded 200 in 643.456612991834 ms
+2019-11-14 12:40:07.483 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.67560239732176985 ms
+2019-11-14 12:40:07.567 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.25112852268868419 ms
+2019-11-14 12:40:07.570 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.20890337285607358 ms
+2019-11-14 12:40:20.718 +01:00 INF HTTP GET /Settings/Password responded 200 in 162.99841233436629 ms
+2019-11-14 12:40:20.778 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.81072287678612387 ms
+2019-11-14 12:40:20.801 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.25512880004124733 ms
+2019-11-14 12:40:20.803 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.23690531432401535 ms
+2019-11-14 12:40:59.955 +01:00 WRN Invalid password for user 58dda265-6afc-4fec-8bef-883a364e602c.
+2019-11-14 12:40:59.978 +01:00 INF HTTP POST /flashmoney/PasswordChange responded 400 in 310.31618192194657 ms
+2019-11-14 12:41:00.026 +01:00 INF HTTP POST /Settings/Password responded 200 in 431.87794353741862 ms
+2019-11-14 12:41:00.099 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.33424539656971775 ms
+2019-11-14 12:41:00.109 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.31246610876131858 ms
+2019-11-14 12:41:00.131 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 2.2232652575022978 ms
+2019-11-14 12:42:42.882 +01:00 INF 2347063733947 Successfully changed Password
+2019-11-14 12:42:42.886 +01:00 INF HTTP POST /flashmoney/PasswordChange responded 200 in 527.01742876394985 ms
+2019-11-14 12:42:42.910 +01:00 INF HTTP POST /Settings/Password responded 200 in 682.38286743436436 ms
+2019-11-14 12:42:43.047 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.86139305658525656 ms
+2019-11-14 12:42:43.051 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.80716707469495663 ms
+2019-11-14 12:42:43.051 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.95028810886443682 ms
+2019-11-14 12:42:43.136 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.39736088368793571 ms
+2019-11-14 12:42:58.040 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 19.579579739750844 ms
+2019-11-14 12:42:58.082 +01:00 INF HTTP GET /Settings responded 200 in 78.816131251766791 ms
+2019-11-14 12:42:58.161 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.69604825934598136 ms
+2019-11-14 12:42:58.233 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.41691779518935534 ms
+2019-11-14 12:42:58.247 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.33869014918367674 ms
+2019-11-14 12:43:05.925 +01:00 INF HTTP POST /Settings responded 200 in 73.075733250838724 ms
+2019-11-14 12:43:06.176 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.96228894092212613 ms
+2019-11-14 12:43:06.206 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.28446416729337681 ms
+2019-11-14 12:43:06.225 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.23334951223284814 ms
+2019-11-14 12:43:06.599 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.2991318509194415 ms
+2019-11-14 12:43:22.272 +01:00 INF HTTP POST /Settings responded 200 in 7.0480442199548055 ms
+2019-11-14 12:43:22.360 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 9.1055202049564326 ms
+2019-11-14 12:43:22.366 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 23.840764070753352 ms
+2019-11-14 12:43:22.369 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 20.552091611685078 ms
+2019-11-14 12:43:38.615 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 15.753981164916324 ms
+2019-11-14 12:43:38.725 +01:00 INF HTTP GET /Settings/TransactionPin responded 200 in 160.53424148518741 ms
+2019-11-14 12:43:38.765 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.26801858262172845 ms
+2019-11-14 12:43:38.766 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.17690115403556869 ms
+2019-11-14 12:43:38.766 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.23512741327843176 ms
+2019-11-14 12:43:38.816 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.28090836520220958 ms
+2019-11-14 12:44:11.127 +01:00 ERR 2347063733947 TAP could not be changed : You have exceeded the maximum PIN trial. Pls visit the nearest FCMB branch or call 012798800 to reset your PIN.
+2019-11-14 12:44:11.132 +01:00 INF HTTP POST /flashmoney/Change2FA responded 200 in 10641.835167238261 ms
+2019-11-14 12:44:11.173 +01:00 INF HTTP POST /Settings/TransactionPin responded 200 in 14836.277537464819 ms
+2019-11-14 12:44:11.223 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.58181811716723475 ms
+2019-11-14 12:44:11.237 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.20756994707188586 ms
+2019-11-14 12:44:11.239 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.2942426230440866 ms
+2019-11-14 12:44:18.766 +01:00 INF HTTP GET /Settings/AuthPin responded 200 in 114.0247946079817 ms
+2019-11-14 12:44:18.846 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.42136254780331434 ms
+2019-11-14 12:44:18.854 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.41602884466656354 ms
+2019-11-14 12:44:18.862 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.23112713592586864 ms
+2019-11-14 12:44:18.987 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.24135006693797437 ms
+2019-11-14 12:44:22.347 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 16.045556936392035 ms
+2019-11-14 12:44:22.368 +01:00 INF HTTP GET /Settings/TransactionPin responded 200 in 102.715121581763 ms
+2019-11-14 12:44:22.415 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.35824706068509637 ms
+2019-11-14 12:44:22.417 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 1.0094033186300917 ms
+2019-11-14 12:44:22.420 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.35069098124136605 ms
+2019-11-14 12:46:00.192 +01:00 ERR 2347063733947 TAP could not be changed : You have exceeded the maximum PIN trial. Pls visit the nearest FCMB branch or call 012798800 to reset your PIN.
+2019-11-14 12:46:00.195 +01:00 INF HTTP POST /flashmoney/Change2FA responded 200 in 6969.9179143087258 ms
+2019-11-14 12:46:24.426 +01:00 INF HTTP POST /Settings/TransactionPin responded 200 in 31327.933847857897 ms
+2019-11-14 12:46:24.522 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.26401830526916531 ms
+2019-11-14 12:46:24.522 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.27557466206545878 ms
+2019-11-14 12:46:24.552 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.88495024543923939 ms
+2019-11-14 12:46:24.746 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 1.8707963752153483 ms
+2019-11-14 12:48:41.123 +01:00 INF Application started
+2019-11-14 12:48:41.699 +01:00 INF Application started
+2019-11-14 12:48:43.196 +01:00 INF HTTP GET /api/values responded 200 in 504.19406856653171 ms
+2019-11-14 12:48:43.430 +01:00 INF HTTP GET /favicon.ico responded 404 in 2.3641639153647986 ms
+2019-11-14 12:48:43.752 +01:00 INF HTTP GET / responded 302 in 165.11811485596334 ms
+2019-11-14 12:48:43.841 +01:00 INF User requested the Login page
+2019-11-14 12:48:44.132 +01:00 INF HTTP GET /Auth/SignIn?ReturnUrl=%2F responded 200 in 350.33184523015819 ms
+2019-11-14 12:49:23.300 +01:00 INF 07063733947 tries to log in
+2019-11-14 12:49:23.713 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'AirtimeRecharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:49:23.714 +01:00 WRN No type was specified for the decimal column 'LastDebited' on entity type 'CardDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:49:23.714 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'TransactionHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:49:23.714 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Transfer'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:49:23.715 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'UserTransaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:49:23.715 +01:00 WRN No type was specified for the decimal column 'AvailableBalance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:49:23.715 +01:00 WRN No type was specified for the decimal column 'CurrentBallance' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:49:23.715 +01:00 WRN No type was specified for the decimal column 'Amount' on entity type 'Withdrawal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2019-11-14 12:49:24.447 +01:00 INF 07063733947 successfuly to logged in
+2019-11-14 12:49:24.536 +01:00 INF Generating Token..
+2019-11-14 12:49:24.603 +01:00 INF HTTP POST /flashmoney/Login responded 200 in 1793.587466508789 ms
+2019-11-14 12:49:24.675 +01:00 INF HTTP POST /Auth/SignIn?returnUrl=%2F responded 302 in 2679.0830830937612 ms
+2019-11-14 12:49:31.705 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 6968.9400687336547 ms
+2019-11-14 12:49:31.936 +01:00 INF HTTP GET / responded 200 in 7242.718606267812 ms
+2019-11-14 12:49:32.043 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.35202440702555376 ms
+2019-11-14 12:49:32.043 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 1.2138619388722063 ms
+2019-11-14 12:49:32.157 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 2.568622535606913 ms
+2019-11-14 12:49:32.317 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 1.3072017437653456 ms
+2019-11-14 12:49:32.496 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 66.080581586990036 ms
+2019-11-14 12:49:32.547 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 147.287100794544 ms
+2019-11-14 12:50:00.666 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 200.661023608748 ms
+2019-11-14 12:50:00.873 +01:00 INF HTTP GET /Settings responded 200 in 523.3420628274672 ms
+2019-11-14 12:50:01.008 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.45469819240800696 ms
+2019-11-14 12:50:01.025 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.29468709830548251 ms
+2019-11-14 12:50:01.437 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.5769288892918798 ms
+2019-11-14 12:50:04.796 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 41.212635187150752 ms
+2019-11-14 12:50:04.952 +01:00 INF HTTP GET /Settings/TransactionPin responded 200 in 290.17834125388248 ms
+2019-11-14 12:50:05.080 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.5044794216843479 ms
+2019-11-14 12:50:05.100 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 1.0120701701984671 ms
+2019-11-14 12:50:05.167 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 21.251695673122224 ms
+2019-11-14 12:50:05.546 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.3658031401288267 ms
+2019-11-14 12:50:28.937 +01:00 ERR 2347063733947 TAP could not be changed : You have exceeded the maximum PIN trial. Pls visit the nearest FCMB branch or call 012798800 to reset your PIN.
+2019-11-14 12:50:28.943 +01:00 INF HTTP POST /flashmoney/Change2FA responded 200 in 7061.2344678119907 ms
+2019-11-14 12:50:46.768 +01:00 INF HTTP POST /Settings/TransactionPin responded 200 in 24948.08884527105 ms
+2019-11-14 12:50:46.861 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.2573511763482268 ms
+2019-11-14 12:50:46.874 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.55337170043789707 ms
+2019-11-14 12:50:46.915 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 11.811485596334679 ms
+2019-11-14 12:50:47.072 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.44847553874846435 ms
+2019-11-14 12:51:16.735 +01:00 INF HTTP GET /flashmoney/QueryUserCard/2347063733947 responded 200 in 97.475202725166724 ms
+2019-11-14 12:51:16.879 +01:00 INF HTTP GET /Card responded 200 in 306.21723106135357 ms
+2019-11-14 12:51:16.937 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.25423984951845552 ms
+2019-11-14 12:51:16.939 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.16534479723927525 ms
+2019-11-14 12:51:16.953 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.34046805022926035 ms
+2019-11-14 12:51:24.497 +01:00 INF 2347063733947 Requested for Transaction History
+2019-11-14 12:51:24.598 +01:00 INF HTTP GET /flashmoney/History/2347063733947 responded 200 in 132.81898656084599 ms
+2019-11-14 12:51:24.690 +01:00 INF HTTP GET /History responded 200 in 288.59467589752887 ms
+2019-11-14 12:51:24.752 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.33468987183111365 ms
+2019-11-14 12:51:24.756 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.52048053109460035 ms
+2019-11-14 12:51:24.771 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.32802274291017508 ms
+2019-11-14 12:51:38.680 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 6323.3197501693448 ms
+2019-11-14 12:51:38.684 +01:00 INF HTTP GET / responded 200 in 6359.18757033821 ms
+2019-11-14 12:51:38.737 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.30935478193154725 ms
+2019-11-14 12:51:38.750 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.47647748021640612 ms
+2019-11-14 12:51:38.755 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.48003328230757331 ms
+2019-11-14 12:51:38.851 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.22801580909609734 ms
+2019-11-14 12:51:39.083 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 37.561270914783428 ms
+2019-11-14 12:51:39.087 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 61.89406909990204 ms
+2019-11-14 12:51:50.181 +01:00 INF HTTP POST /flashmoney/QueryReceipient responded 200 in 643.38460799948791 ms
+2019-11-14 12:51:50.349 +01:00 INF HTTP POST /Transaction/Transfer responded 200 in 896.12079770864113 ms
+2019-11-14 12:51:57.601 +01:00 INF HTTP POST /Transaction/TransferTAPAuth responded 200 in 165.1545618273978 ms
+2019-11-14 12:52:16.138 +01:00 INF 2347063733947 initiated a transfer of 30000.0 to 07011193512
+2019-11-14 12:52:31.907 +01:00 INF 2347063733947 PIN was not verified for transfer : You have exceeded the maximum PIN trial. Pls visit the nearest FCMB branch or call 012798800 to reset your PIN.
+2019-11-14 12:52:31.909 +01:00 INF HTTP POST /flashmoney/Transfer responded 200 in 15810.18061696722 ms
+2019-11-14 12:52:31.952 +01:00 INF HTTP POST /Transaction/TAPTransfer responded 200 in 27281.773758536146 ms
+2019-11-14 12:52:44.133 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 6673.9547275277755 ms
+2019-11-14 12:52:44.148 +01:00 INF HTTP GET / responded 200 in 6742.2341282328907 ms
+2019-11-14 12:52:44.250 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 3.4344603448061286 ms
+2019-11-14 12:52:44.258 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.2529064237342678 ms
+2019-11-14 12:52:44.260 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.18401275821790311 ms
+2019-11-14 12:52:44.527 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 45.450706804560674 ms
+2019-11-14 12:52:44.538 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 94.9830299345199 ms
+2019-11-14 12:52:54.451 +01:00 INF HTTP GET /flashmoney/QueryUserCard/2347063733947 responded 200 in 9.7482314329349062 ms
+2019-11-14 12:52:54.497 +01:00 INF HTTP GET /Wallet/QueryCards responded 200 in 75.398116491632308 ms
+2019-11-14 12:52:57.096 +01:00 INF HTTP GET /flashmoney/QueryUserCard/2347063733947 responded 200 in 21.444597936568048 ms
+2019-11-14 12:52:57.100 +01:00 INF HTTP GET /Wallet/QueryCards responded 200 in 41.595328387212625 ms
+2019-11-14 12:53:08.848 +01:00 INF HTTP POST /Wallet/Pin responded 200 in 106.99186254691436 ms
+2019-11-14 12:53:20.402 +01:00 INF HTTP POST /flashmoney/FundWallet responded 400 in 186.44492684826147 ms
+2019-11-14 12:53:20.447 +01:00 INF HTTP POST /Wallet/FundWallet/e16888ee-6c48-4f59-aed8-262732dc099f responded 200 in 4384.2537527046316 ms
+2019-11-14 12:53:31.461 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 7067.7291403315076 ms
+2019-11-14 12:53:31.492 +01:00 INF HTTP GET / responded 200 in 7192.6973603503175 ms
+2019-11-14 12:53:31.544 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.35202440702555376 ms
+2019-11-14 12:53:31.551 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.23201608644866045 ms
+2019-11-14 12:53:31.553 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.24135006693797437 ms
+2019-11-14 12:53:31.630 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.2529064237342678 ms
+2019-11-14 12:53:31.952 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 12.410193773434958 ms
+2019-11-14 12:53:31.962 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 45.375590485384762 ms
+2019-11-14 12:53:37.885 +01:00 INF HTTP GET /flashmoney/QueryUserCard/2347063733947 responded 200 in 8.8419463749486624 ms
+2019-11-14 12:53:37.890 +01:00 INF HTTP GET /Wallet/QueryCards responded 200 in 18.985760790525919 ms
+2019-11-14 12:53:43.526 +01:00 INF HTTP GET /flashmoney/QueryUserCard/2347063733947 responded 200 in 42.1838136333008 ms
+2019-11-14 12:53:43.534 +01:00 INF HTTP GET /Card responded 200 in 63.743530662570386 ms
+2019-11-14 12:53:43.582 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.27557466206545878 ms
+2019-11-14 12:53:43.588 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.40402801260887422 ms
+2019-11-14 12:53:43.637 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.25335089899566371 ms
+2019-11-14 12:53:43.752 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.44136393456612993 ms
+2019-11-14 12:53:46.534 +01:00 INF 2347063733947 Requested for Transaction History
+2019-11-14 12:53:46.619 +01:00 INF HTTP GET /flashmoney/History/2347063733947 responded 200 in 86.902469682342414 ms
+2019-11-14 12:53:46.623 +01:00 INF HTTP GET /History responded 200 in 122.62894671808357 ms
+2019-11-14 12:53:46.664 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.49825676802480529 ms
+2019-11-14 12:53:46.664 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.15289948992019003 ms
+2019-11-14 12:53:46.666 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.68138057571991661 ms
+2019-11-14 12:53:46.872 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.328467218171571 ms
+2019-11-14 12:53:49.760 +01:00 INF HTTP GET /flashmoney/UserProfile/2347063733947 responded 200 in 33.466764806804385 ms
+2019-11-14 12:53:49.793 +01:00 INF HTTP GET /Settings responded 200 in 86.550889750578264 ms
+2019-11-14 12:53:49.854 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 1.0022917144477572 ms
+2019-11-14 12:53:49.861 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.52136948161739216 ms
+2019-11-14 12:53:49.868 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 1.3867628155552119 ms
+2019-11-14 12:53:49.923 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 0.49603439171782576 ms
+2019-11-14 12:54:02.895 +01:00 INF HTTP GET /flashmoney/Balance/2347063733947 responded 200 in 5897.4493342649539 ms
+2019-11-14 12:54:02.901 +01:00 INF HTTP GET / responded 200 in 5964.89801070652 ms
+2019-11-14 12:54:03.004 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.theme.default.min.css responded 404 in 0.30313212827200464 ms
+2019-11-14 12:54:03.004 +01:00 INF HTTP GET /assets/components/owl-carousel/assets/owl.carousel.min.css responded 404 in 0.30268765301060874 ms
+2019-11-14 12:54:03.330 +01:00 INF HTTP GET /assets/components/owl-carousel/owl.carousel.min.js responded 404 in 1.1258558371158178 ms
+2019-11-14 12:54:03.662 +01:00 INF HTTP GET /flashmoney/QetChartData/2347063733947 responded 200 in 13.310700653023053 ms
+2019-11-14 12:54:03.678 +01:00 INF HTTP GET /Home/GetDailyChatData responded 200 in 165.43191439050887 ms

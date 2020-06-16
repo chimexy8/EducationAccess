@@ -1,0 +1,59 @@
+﻿@using System.Globalization
+@model FlashMoney.DTO.FundWalletDTO
+<div class="card form-card">
+    <!-- Loading  -->
+    <div class="form-section loading">
+        <div class="la-ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- Transaction PIN -->
+    <div class="form-section wallet-transpin active">
+        <div class="head sub">
+            <a href="#" class="btn btn-link form-link" data-link="wallet-authpin">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Flash Money</h4>
+        </div>
+        <form asp-action="FundWallet" asp-controller="Wallet" method="post">
+            <div class="summary-card">
+                <div class="avater">
+                    <i class="icon auto">
+                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.2528 19.4967V20.7483C23.2528 22.1217 22.123 23.2513 20.7497 23.2513H3.25117C1.86523 23.2513 0.748047 22.1217 0.748047 20.7483V3.24982C0.748047 1.87638 1.86523 0.74707 3.25117 0.74707H20.7497C22.123 0.74707 23.2528 1.87638 23.2528 3.24982V4.50138H12.0043C10.6122 4.50138 9.50117 5.62482 9.50117 6.99669V17.0013C9.50117 18.3748 10.6122 19.4967 12.0043 19.4967H23.2528ZM12.0043 17.0013H24.5043V6.99669H12.0043V17.0013ZM17.0027 13.8763C15.9653 13.8763 15.1293 13.0404 15.1293 12.0029C15.1293 10.9639 15.9653 10.1217 17.0027 10.1217C18.0403 10.1217 18.8762 10.9639 18.8762 12.0029C18.8762 13.0404 18.0403 13.8763 17.0027 13.8763Z"
+                                  fill="#5D2684" />
+                        </svg>
+                    </i>
+                    <p>
+                        <strong>@Model.Amount.ToString("c", new CultureInfo("ha-Latn-NG"))</strong>
+                        <span>Amount to be added to your wallet</span>
+                    </p>
+                </div>
+            </div>
+            <input asp-for="Amount" type="hidden"/>
+
+            <p>Enter your <strong>Transaction PIN</strong> Below</p>
+
+            <div class="input-pin x4">
+                <input asp-for="One" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Two" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Three" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Four" placeholder="*" autocomplete=“off”/>
+            </div>
+            <div class="action">
+                <button class="btn btn-primary" type="submit" id="FundWalletButton">Continue</button>
+            </div>
+        </form>
+    </div>
+</div>

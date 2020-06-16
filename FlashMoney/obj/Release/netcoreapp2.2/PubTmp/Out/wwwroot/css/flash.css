@@ -1,0 +1,28 @@
+﻿.modals .modal-dialog .form-card .select-list .active.item {
+   background: rgba(106,200,149,.05);
+}
+
+.modals .modal-dialog .form-card .select-list .item.active .icon.check {
+    opacity: 1;
+}
+
+.total_amount{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.outter_total_charge{
+    font-style: italic;
+}
+.total_amount .include{
+    font-size: 10px;
+}
+.error_message {
+    color: #970000;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+}
+.errorColor {
+    color: #970000 !important;
+}

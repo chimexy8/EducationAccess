@@ -1,0 +1,153 @@
+﻿@using System.Globalization
+@model FlashMoney.Models.TransactionModel
+
+<div class="card form-card">
+    <!-- Loading  -->
+    <div class="form-section loading">
+        <div class="la-ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Auth PIN & Others -->
+    <div class="form-section fund-trn-authpin active">
+        <div class="head sub">
+            <a href="#" class="btn" id="GoBackFundButton">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Flash Money</h4>
+        </div>
+        <form asp-action="TransferAuth" asp-controller="Transaction" method="post">
+            <div class="summary-card">
+                <div class="avater">
+                    <img src="~/assets/img/png/avatar.png" />
+                    <p>
+                        @if (!string.IsNullOrEmpty(Model.Receipient))
+                        {
+                            <strong>@Model.Receipient</strong>
+                        }
+
+                        <span>@Model.DestinationPhone</span>
+                    </p>
+                </div>
+                <div class="sum">
+                    <strong>@Model.Amount.ToString("c", new CultureInfo("ha-Latn-NG"))</strong>
+                    <label>Charge: <em>@Model.TransacrtionCharge.ToString("c", new CultureInfo("ha-Latn-NG"))</em></label>
+                </div>
+            </div>
+
+            <input asp-for="DestinationPhone" placeholder="Phone Number" type="hidden" />
+            <input asp-for="Amount" placeholder="Phone Number" type="hidden" />
+            <input asp-for="TransacrtionCharge" placeholder="Phone Number" type="hidden" />
+            <input asp-for="Narration" placeholder="Phone Number" type="hidden" />
+            <label class="auth_pin_text">Enter Your Auth PIN</label>
+            <div class="input-pin x4">
+                <input asp-for="PinOne" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="PinTwo" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="PinThree" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="PinFour" type="text" placeholder="*" autocomplete=“off”/>
+            </div>
+
+            <!--<div class="secret-code">
+                <div class="info">
+                    <label>Send Secret Code to Recipient</label>
+                    <span>Code is needed fund activation and withdrawal</span>
+                </div>
+                <div class="code">
+                    <strong>ru5y-h0</strong>
+                    <a class="btn btn-link">
+                        <i class="icon auto">
+                            <svg width="14" height="16" viewBox="0 0 14 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.3636 14.5455H4.36364V4.36364H12.3636V14.5455ZM12.3636 2.90909H4.36364C3.56364 2.90909 2.90909 3.56364 2.90909 4.36364V14.5455C2.90909 15.3455 3.56364 16 4.36364 16H12.3636C13.1636 16 13.8182 15.3455 13.8182 14.5455V4.36364C13.8182 3.56364 13.1636 2.90909 12.3636 2.90909ZM10.1818 0H1.45455C0.654546 0 0 0.654545 0 1.45455V11.6364H1.45455V1.45455H10.1818V0Z"
+                                      fill="#5D2684" />
+                            </svg>
+                        </i>
+                    </a>
+                </div>
+            </div>-->
+
+            <p class="m-0">Select how you want to authorize this transaction to:</p>
+            <div class="select-list">
+                <div class="item" id="fund-trn-otptoken">
+                    <i class="icon auto">
+                        <svg width="13" height="27" viewBox="0 0 13 27" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.64037 0.424805C8.93011 0.424805 8.35832 0.9966 8.35832 1.70686V5.55301H3.23012C1.80959 5.55301 0.666016 6.6966 0.666016 8.11711V23.5017C0.666016 24.9222 1.80959 26.0658 3.23012 26.0658H9.64037C11.0609 26.0658 12.2045 24.9222 12.2045 23.5017V8.11711C12.2045 7.16698 11.6863 6.34916 10.9224 5.90609V1.70686C10.9224 0.9966 10.3506 0.424805 9.64037 0.424805ZM3.23012 8.11711H9.64037V14.5274H3.23012V8.11711ZM3.23012 17.0915H4.51217V18.3735H3.23012V17.0915ZM5.79422 17.0915H7.07627V18.3735H5.79422V17.0915ZM8.35832 17.0915H9.64037V18.3735H8.35832V17.0915ZM3.23012 19.6556H4.51217V20.9376H3.23012V19.6556ZM5.79422 19.6556H7.07627V20.9376H5.79422V19.6556ZM8.35832 19.6556H9.64037V20.9376H8.35832V19.6556ZM3.23012 22.2197H4.51217V23.5017H3.23012V22.2197ZM5.79422 22.2197H7.07627V23.5017H5.79422V22.2197ZM8.35832 22.2197H9.64037V23.5017H8.35832V22.2197Z"
+                                  fill="#FBB700" />
+                        </svg>
+                    </i>
+                    <p>
+                        <strong>Send OTP to Mobile Phone</strong>
+                        <span class="ellipsis">A code will be sent to +234**********59 </span>
+                    </p>
+                    <i class="icon auto check">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 7.00015L9 19.0001L3.5 13.5001L4.91421 12.0859L9 16.1717L19.5858 5.58594L21 7.00015Z"
+                                  fill="#6AC895" />
+                        </svg>
+                    </i>
+                </div>
+                @if (ViewBag.HasTap == 1)
+                {
+                    <div class="item" id="fund-trn-transpin">
+                        <i class="icon auto">
+                            <svg width="17" height="20" viewBox="0 0 17 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.18182 0L0 3.63636V9.09091C0 14.1364 3.49091 18.8545 8.18182 20C12.8727 18.8545 16.3636 14.1364 16.3636 9.09091V3.63636L8.18182 0ZM8.18182 5.45455C9.45455 5.45455 10.728 6.45455 10.728 7.72727V9.09091C11.2735 9.09091 11.8182 9.63709 11.8182 10.2735V13.4553C11.8182 14.0007 11.272 14.5455 10.6356 14.5455H5.63565C5.0902 14.5455 4.54545 13.9993 4.54545 13.3629V10.1811C4.54545 9.63564 5.0902 9.09091 5.63565 9.09091V7.72727C5.63565 6.45455 6.90909 5.45455 8.18182 5.45455ZM8.18182 6.54473C7.45455 6.54473 6.81818 7 6.81818 7.72727V9.09091H9.54545V7.72727C9.54545 7 8.90909 6.54473 8.18182 6.54473Z"
+                                      fill="#FBB700" />
+                            </svg>
+                        </i>
+                        <p>
+                            <strong>Use Transaction PIN</strong>
+                            <span class="ellipsis">A four digit PIN for 20k+ transactions</span>
+                        </p>
+                        <i class="icon auto check">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 7.00015L9 19.0001L3.5 13.5001L4.91421 12.0859L9 16.1717L19.5858 5.58594L21 7.00015Z"
+                                      fill="#6AC895" />
+                            </svg>
+                        </i>
+                    </div>
+                }
+                else
+                {
+                    <div class="item">
+                        <a class="atag" asp-controller="Settings" asp-action="TransactionPin">
+                            <i class="icon auto">
+                                <svg width="17" height="20" viewBox="0 0 17 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.18182 0L0 3.63636V9.09091C0 14.1364 3.49091 18.8545 8.18182 20C12.8727 18.8545 16.3636 14.1364 16.3636 9.09091V3.63636L8.18182 0ZM8.18182 5.45455C9.45455 5.45455 10.728 6.45455 10.728 7.72727V9.09091C11.2735 9.09091 11.8182 9.63709 11.8182 10.2735V13.4553C11.8182 14.0007 11.272 14.5455 10.6356 14.5455H5.63565C5.0902 14.5455 4.54545 13.9993 4.54545 13.3629V10.1811C4.54545 9.63564 5.0902 9.09091 5.63565 9.09091V7.72727C5.63565 6.45455 6.90909 5.45455 8.18182 5.45455ZM8.18182 6.54473C7.45455 6.54473 6.81818 7 6.81818 7.72727V9.09091H9.54545V7.72727C9.54545 7 8.90909 6.54473 8.18182 6.54473Z"
+                                          fill="#FBB700" />
+                                </svg>
+                            </i>
+                            <p>
+                                <strong>Use Transaction PIN</strong>
+                                <span class="ellipsis">A four digit PIN for 20k+ transactions</span>
+                            </p>
+                            <i class="icon auto check">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 7.00015L9 19.0001L3.5 13.5001L4.91421 12.0859L9 16.1717L19.5858 5.58594L21 7.00015Z"
+                                          fill="#6AC895" />
+                                </svg>
+                            </i>
+                        </a>
+
+                    </div>
+                }
+
+            </div>
+        </form>
+    </div>
+</div>

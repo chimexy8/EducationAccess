@@ -1,0 +1,33 @@
+﻿@model FlashMoney.DTO.ResetDTO
+@{
+    ViewData["Title"] = "Reset";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Reset: Phone -->
+<div class="form-section reset-phone active">
+    <div class="head sub">
+        <a asp-action="SignIn" asp-controller="Auth" class="btn btn-link">
+            <i class="icon auto">
+                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                          fill="#5D2684" />
+                </svg>
+            </i>
+        </a>
+        <h4>Reset Password</h4>
+    </div>
+    <form asp-action="Reset" asp-controller="Auth" method="post">
+        <p>Enter your phone number to reset</p>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="input">
+            <input asp-for="Phone" type="text" placeholder="Phone Number" />
+            <label>Phone Number</label>
+        </div>
+
+        <div class="action">
+            <button class="btn btn-primary" type="submit">Continue</button>
+        </div>
+    </form>
+</div>

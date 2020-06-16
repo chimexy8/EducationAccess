@@ -1,0 +1,789 @@
+﻿@using System.Globalization
+@model PaginatedList<FlashMoney.Models.TransactionHistoryModel>
+@{
+    ViewData["Title"] = "Index";
+    ViewData["Header"] = "History";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+
+
+@section NAV{
+    <div class="content">
+        <ul>
+            <li>
+                <a asp-action="Index" asp-controller="Home">
+                    <i class="icon">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.3">
+                                <path d="M9 13.2002H15V19.2002H18V10.1767L12 5.69627L6 10.1767V19.2002H9V13.2002ZM3.98438 21.2002V9.20019L12 3.2002L20.0156 9.20019V21.2002H3.98438Z"
+                                      fill="#2F1343" />
+                            </g>
+                        </svg>
+                    </i>
+                    <span>Overview</span>
+                </a>
+            </li>
+            <li class="active">
+                <a asp-action="Index" asp-controller="History">
+                    <i class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.3">
+                                <path d="M13.0008 2.0293V2.0493V4.0493C17.3908 4.5893 20.5008 8.5793 19.9608 12.9693C19.5008 16.6093 16.6408 19.4993 13.0008 19.9293V21.9293C18.5008 21.3793 22.5008 16.4993 21.9508 10.9993C21.5008 6.2493 17.7308 2.4993 13.0008 2.0293ZM11.0008 2.0593C9.05078 2.2493 7.19078 2.9993 5.67078 4.2593L7.10078 5.7393C8.22078 4.8393 9.57078 4.2593 11.0008 4.0593V2.0593ZM4.26078 5.6693C3.00078 7.1893 2.25078 9.03929 2.05078 10.9993H4.05078C4.24078 9.57929 4.80078 8.22929 5.69078 7.09929L4.26078 5.6693ZM2.06078 12.9993C2.26078 14.9593 3.03078 16.8093 4.27078 18.3293L5.69078 16.8993C4.81078 15.7693 4.24078 14.4193 4.06078 12.9993H2.06078ZM7.10078 18.3693L5.67078 19.7393C7.18078 20.9993 9.04078 21.7893 11.0008 21.9993V19.9993C9.58078 19.8193 8.23078 19.2493 7.10078 18.3693ZM12.5008 6.9993V12.2493L17.0008 14.9193L16.2508 16.1493L11.0008 12.9993V6.9993H12.5008Z"
+                                      fill="#2F1343" />
+                            </g>
+                        </svg>
+                    </i>
+                    <span>History</span>
+                </a>
+            </li>
+            <li>
+                <a asp-action="Index" asp-controller="Card">
+                    <i class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.3">
+                                <path d="M20.9989 7.9995V5.9995L6.99915 5.99902V7.99902L20.9989 7.9995ZM20.9991 15.999L20.9988 10.9998L6.99902 10.9993L6.99939 15.9985L20.9991 15.999ZM20.9989 3.99951C22.1039 3.99951 22.9989 4.89347 22.9989 5.99951L22.9991 15.999C22.9991 17.1051 22.1042 17.999 20.9991 17.999L6.99939 17.9985C5.89437 17.9985 4.99939 17.1046 4.99939 15.9985L5.00915 5.99902C5.00915 4.89298 5.89412 3.99902 6.99915 3.99902L20.9989 3.99951ZM3 20.0005H18V22.0005L3.00024 22C1.89522 22 1.00024 21.106 1.00024 20L1 9.00048H3V20.0005Z"
+                                      fill="#2F1343" />
+                            </g>
+                        </svg>
+                    </i>
+                    <span>Cards</span>
+                </a>
+            </li>
+            <li>
+                <a asp-action="Index" asp-controller="Settings">
+                    <i class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.3">
+                                <path d="M12.0003 8.00048C14.2094 8.00048 16.0003 9.79134 16.0003 12.0005C16.0003 14.2096 14.2094 16.0005 12.0003 16.0005C9.79115 16.0005 8.00029 14.2096 8.00029 12.0005C8.00029 9.79134 9.79115 8.00048 12.0003 8.00048ZM12.0003 10.0005C10.8957 10.0005 10.0003 10.8959 10.0003 12.0005C10.0003 13.1051 10.8957 14.0005 12.0003 14.0005C13.1049 14.0005 14.0003 13.1051 14.0003 12.0005C14.0003 10.8959 13.1049 10.0005 12.0003 10.0005ZM9.99967 21.9985C9.74967 21.9985 9.54369 21.8156 9.5057 21.5775L9.1307 18.9276C8.52169 18.6755 7.95667 18.3405 7.44068 17.9445L4.95166 18.9475C4.72569 19.0345 4.46367 18.9465 4.33969 18.7306L2.33969 15.2665C2.21469 15.0505 2.26966 14.7805 2.45769 14.6276L4.56969 12.9745L4.49968 11.9985L4.56969 11.0226L2.45769 9.36848C2.26966 9.21655 2.21469 8.94653 2.33969 8.73054L4.33969 5.26652C4.46367 5.05053 4.72569 4.96256 4.95166 5.04955L7.43968 6.05257C7.95567 5.65657 8.52067 5.32153 9.1307 5.06852L9.5057 2.4196C9.54369 2.18148 9.74967 1.99854 9.99967 1.99854L14.0009 2.00049C14.2509 2.00049 14.4569 2.18344 14.4949 2.42155L14.8699 5.07047C15.4799 5.32348 16.0449 5.65852 16.5609 6.05452L19.0489 5.05151C19.2749 4.96451 19.5369 5.05248 19.6609 5.26846L21.6609 8.73249C21.7859 8.94848 21.7309 9.2185 21.5429 9.37043L19.4309 11.0245L19.5009 12.0005L19.4309 12.9765L21.5429 14.6296C21.7309 14.7825 21.7859 15.0525 21.6609 15.2685L19.6609 18.7325C19.5369 18.9485 19.2749 19.0365 19.0489 18.9495L16.5599 17.9465C16.0439 18.3425 15.4789 18.6775 14.8699 18.9295L14.4949 21.5794C14.4569 21.8176 14.2509 22.0005 14.0009 22.0005L9.99967 21.9985ZM11.2503 4.0005L10.8843 6.61377C9.68292 6.86137 8.62463 7.50078 7.84895 8.39254L5.43814 7.35242L4.68814 8.65146L6.80101 10.2029C6.39926 11.3677 6.40005 12.6406 6.80337 13.8049L4.68493 15.3609L5.43493 16.6599L7.85559 15.6161C8.62862 16.5015 9.68077 17.137 10.8748 17.3853L11.2439 20.0174L12.7567 20.0194L13.1258 17.3872C14.3198 17.1389 15.372 16.5034 16.145 15.618L18.5657 16.6619L19.3157 15.3628L17.1972 13.8069C17.6005 12.6425 17.6013 11.3697 17.1996 10.2049L19.3124 8.65341L18.5624 7.35437L16.1516 8.39448C15.3759 7.50273 14.3177 6.86332 13.1163 6.61572L12.7503 4.00245L11.2503 4.0005Z"
+                                      fill="#2F1343" />
+                            </g>
+                        </svg>
+
+                    </i>
+                    <span>Settings</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+}
+
+@if (Model != null && Model.Any())
+{
+    <section class="content history">
+        <div class="container">
+            <div class="card animated fadeInUp fast delay-1">
+                <div class="heading">
+                    <a class="btn btn-link clear-btn">
+                        <i class="icon auto">
+                            <svg width="16" height="10" viewBox="0 0 16 10" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.1668 5.83128H13.8325V4.1677H2.1668V5.83128ZM0.498047 9.16878H12.1689V7.50003H0.498047V9.16878ZM3.83555 0.835449V2.49899H15.5012V0.835449"
+                                      fill="#FF7070" />
+                            </svg>
+                        </i>
+                        <span>Clear All</span>
+                    </a>
+
+                    <div class="dropdown">
+                        <a class="btn btn-link dropdown-toggle" id="fundtransfer-menu" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            <span>Sort by:</span>
+                            <strong>Date Performed</strong>
+                            <i class="icon auto arrow">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4"
+                                          d="M1.78119 0.218262L5.22069 3.65778L8.6602 0.218262L9.7207 1.27876L5.22069 5.77878L0.72069 1.27876L1.78119 0.218262Z"
+                                          fill="white" />
+                                </svg>
+                            </i>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="fundtransfer-menu">
+                            <a class="dropdown-item" asp-action="Index" asp-route-sortOrder="@ViewData["AmountSortParm"]">Amount</a>
+                            <a class="dropdown-item" asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]">Date Performed</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-table">
+                    <div class="tr thead">
+                        <div class="td x2_">*</div>
+                        <div class="td x1">Amount</div>
+                        <div class="td x2_">Source / Recipient</div>
+                        <div class="td x2">Date Performed</div>
+                        <div class="td x1">Status</div>
+                    </div>
+                    @foreach (var item in Model)
+                    {
+                        <div class="tr">
+                            <div class="td x2_">
+                                @if (item.Description == "Wallet Funded" ||item.Description == "Credit")
+                                {
+                                    <i class="icon auto credit">
+                                        <svg width="19" height="16" viewBox="0 0 19 16" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.493 4.3782V1.66093C9.493 1.06352 8.84309 0.735903 8.37887 1.08279L1.04416 6.71005C0.672781 6.99912 0.672781 7.57726 1.04416 7.86633L8.37887 13.4936C8.84309 13.8405 9.493 13.5129 9.493 12.9155V10.1596C13.3553 10.5451 15.7693 12.029 17.2548 14.7462C17.589 15.3437 18.4989 15.016 18.4061 14.3415C17.6819 9.19606 15.3608 5.16833 9.493 4.3782Z"
+                                                  fill="#6AC895" />
+                                        </svg>
+                                    </i>
+                                    <p>@item.Description</p>
+                                }
+                                else
+                                {
+                                    <i class="icon auto debit">
+                                        <svg width="19" height="16" viewBox="0 0 19 16" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.68473 4.3782V1.66093C9.68473 1.06352 10.3346 0.735903 10.7989 1.08279L18.1336 6.71005C18.505 6.99912 18.505 7.57726 18.1336 7.86633L10.7989 13.4936C10.3346 13.8405 9.68473 13.5129 9.68473 12.9155V10.1596C5.8224 10.5451 3.40845 12.029 1.92294 14.7462C1.5887 15.3437 0.67882 15.016 0.771664 14.3415C1.49585 9.19606 3.81696 5.16833 9.68473 4.3782Z"
+                                                  fill="#FF7070" />
+                                        </svg>
+
+                                    </i>
+                                    <p>@item.Description</p>
+                                }
+
+                            </div>
+                            <div class="td x1">
+                                @if (item.Description == "Wallet Funded"||item.Description == "Credit")
+                                {
+                                    <strong class="amount credit">+@item.Amount.ToString("c", new CultureInfo("ha-Latn-NG"))</strong>
+                                }
+                                else
+                                {
+                                    <strong class="amount debit">-@item.Amount.ToString("c", new CultureInfo("ha-Latn-NG"))</strong>
+                                }
+
+                            </div>
+                            <div class="td x2_">
+                                <div class="avater">
+                                    @if (item.Description == "Transfer"||item.Description == "Credit"||item.Description == "Transfer Charge"||item.Description == "Fund Wallet Charge")
+                                    {
+                                        if (item.ReceipientPassport != null)
+                                        {
+                                            
+                                            <img class="round" src="@item.ReceipientPassport" />
+                                        }
+                                        else
+                                        {
+                                            <img class="round" src="~/assets/img/png/avatar.png" />
+                                        }
+
+                                        <p>
+                                            @if (!string.IsNullOrEmpty(item.Receipient))
+                                            {
+                                                <strong class="ellipsis">@item.Receipient</strong>
+                                            }
+                                            @if (item.Description == "Credit")
+                                            {
+                                                <span class="ellipsis">@item.Phone</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="ellipsis">@item.DestinationPhone</span>
+                                            }
+
+                                        </p>
+                                    }
+                                    else if (item.Description == "Wallet Funded")
+                                    {
+                                        if (item.CardType == "Master")
+                                        {
+                                            <img class="round" src="~/assets/img/png/card-master.png" />
+                                        }
+                                        else if (item.CardType == "Visa")
+                                        {
+                                            <img class="round" src="~/assets/img/png/card-visa.png" />
+                                        }
+                                        else
+                                        {
+                                            <img class="round" src="~/assets/img/png/nocard.png" />
+                                        }
+
+                                        <p>
+
+                                            <strong class="ellipsis">@item.CardNumber</strong>
+                                            <span class="ellipsis">@item.Phone</span>
+                                        </p>
+                                    }
+
+                                </div>
+                            </div>
+                            <div class="td x2">
+                                <p>@item.Date.ToString("d MMM yyyy hh:mm tt")</p>
+                            </div>
+                            <div class="td x1">
+                                <span class="status green">Completed</span>
+                            </div>
+
+                            <div class="action">
+                                @if (item.Description == "Transfer")
+                                {
+                                    <!--<a class="btn btn-link" data-toggle="modal" data-target="#modal-reclaim-funds">
+                                        <i class="icon auto">
+                                            <svg width="13" height="15" viewBox="0 0 13 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.834 9.49992L7.83398 14.4999L6.65065 13.3166L9.64232 10.3333H0.333984V0.333252H2.00065V8.66658H9.64232L6.65065 5.68325L7.83398 4.49992L12.834 9.49992Z"
+                                                      fill="#5D2684" />
+                                            </svg>
+                                        </i>
+                                        <span>Reclaim Funds</span>
+                                    </a>-->
+                                }
+
+                                @if (item.Description == "Transfer" || item.Description == "Wallet Funded")
+                                {
+                                    <a class="btn btn-link text-red repeat_history_btn" data-itemid="@item.Id">
+                                        <i class="icon auto">
+                                            <svg width="14" height="18" viewBox="0 0 14 18" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M7.00065 4.16659V0.833252L2.83398 4.99992L7.00065 9.16658V5.83325C8.32673 5.83325 9.5985 6.36004 10.5362 7.29772C11.4739 8.2354 12.0007 9.50717 12.0007 10.8333C12.0007 12.1593 11.4739 13.4311 10.5362 14.3688C9.5985 15.3065 8.32673 15.8333 7.00065 15.8333C5.67457 15.8333 4.4028 15.3065 3.46512 14.3688C2.52744 13.4311 2.00065 12.1593 2.00065 10.8333H0.333984C0.333984 12.6014 1.03636 14.2971 2.28661 15.5473C3.53685 16.7975 5.23254 17.4999 7.00065 17.4999C8.76876 17.4999 10.4645 16.7975 11.7147 15.5473C12.9649 14.2971 13.6673 12.6014 13.6673 10.8333C13.6673 9.06514 12.9649 7.36945 11.7147 6.11921C10.4645 4.86896 8.76876 4.16659 7.00065 4.16659Z"
+                                                      fill="#FF7070" />
+                                            </svg>
+                                        </i>
+                                        <span>Repeat</span>
+                                    </a>
+                                }
+
+                            </div>
+                        </div>
+                    }
+
+                </div>
+
+                @{
+                    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+                    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+                }
+
+                <ul class="pagination">
+                    <li class="page-item @prevDisabled">
+                        <a class="page-link" asp-action="Index"
+                           asp-route-sortOrder="@ViewData["CurrentSort"]"
+                           asp-route-pageNumber="@(Model.PageIndex - 1)"
+                           asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                            <i class="icon auto">
+                                <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.56055 1.06049L2.12103 4.49999L5.56055 7.9395L4.50005 9L2.6226e-05 4.49999L4.50005 -1.33514e-05L5.56055 1.06049Z"
+                                          fill="#2F1343" />
+                                </svg>
+
+                            </i>
+                            <span>Previous</span>
+                        </a>
+                    </li>
+                    @for (var i = 1; i <= Model.TotalPages; i++)
+                    {
+                        if (Model.PageIndex == i)
+                        {
+                            <li class="page-item active"><a class="page-link" asp-action="Index" asp-route-pageNumber="@(i)">@(i)</a></li>
+                        }
+                        else
+                        {
+                            <li class="page-item"><a class="page-link" asp-action="Index" asp-route-pageNumber="@(i)">@(i)</a></li>
+                        }
+                    }
+                    <li class="page-item  @nextDisabled">
+                        <a class="page-link" asp-action="Index"
+                           asp-route-sortOrder="@ViewData["CurrentSort"]"
+                           asp-route-pageNumber="@(Model.PageIndex + 1)"
+                           asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                            <span>Next</span>
+                            <i class="icon auto">
+                                <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3"
+                                          d="M0.00195312 7.93951L3.44147 4.50001L0.00195312 1.0605L1.06245 0L5.56247 4.50001L1.06245 9.00001L0.00195312 7.93951Z"
+                                          fill="#2F1343" />
+                                </svg>
+
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+}
+else
+{
+    <section class="content history ">
+        <div class="container">
+            <div class="card patterned empty animated fadeInUp fast delay-1">
+                <div class="info">
+                    <i class="icon auto">
+                        <svg width="55" height="55" viewBox="0 0 55 55" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.58398 13.75V18.3333H32.084V13.75H4.58398ZM4.58398 22.9167V27.5H25.209V22.9167H4.58398ZM32.4779 24.6533L29.2373 27.8939L35.7183 34.375L29.2373 40.8561L32.4779 44.0967L38.959 37.6156L45.44 44.0967L48.6807 40.8561L42.1996 34.375L48.6807 27.8939L45.44 24.6533L38.959 31.1344L32.4779 24.6533ZM4.58398 32.0833V36.6667H25.209V32.0833H4.58398Z"
+                                  fill="#FBB700" />
+                        </svg>
+                    </i>
+                    <p>You haven’t perform any transaction yet</p>
+                    <p>Make a transaction to have it show here in your history</p>
+
+                    @*<a class="btn btn-link" href="./history-list.html">
+                            <span>Action Link</span>
+                            <i class="icon auto">
+                                <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 7.93951L3.43952 4.50001L0 1.0605L1.0605 0L5.56052 4.50001L1.0605 9.00001L0 7.93951Z"
+                                          fill="#5D2684" />
+                                </svg>
+                            </i>
+                        </a>*@
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+
+@section Modals {
+    <div class="modal fade" id="modal-auth-generate" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="card form-card">
+                    <!-- Loading  -->
+                    <div class="form-section loading active">
+                        <div class="la-ball-pulse">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <!-- Success & Error -->
+                    <div class="form-section alert sub success message">
+                        <div class="head">
+                            <h4>Setup Authentication / USSD PIN</h4>
+                        </div>
+                        <img src="~/assets/img/png/alert-success.png" class="success-img" />
+                        <img src="~/assets/img/png/alert-error.png" class="error-img" />
+                        <div class="invisible successchange">
+                            <h3>Pin Setup Successful</h3>
+                            <p>
+                                You can now perform secured transaction less than <strong>₦20,000.</strong>
+                            </p>
+                        </div>
+                        <div class="invisible errorchange">
+                            <h3>Pin Setup Unsuccessful</h3>
+                            <p class="respmessage">
+
+                            </p>
+                        </div>
+                        <div class="invisible networkchange">
+                            <h3>Pin Setup Unsuccessful</h3>
+                            <p class="respmessage">Pin Setup could not be completed please try again</p>
+                        </div>
+
+
+
+                        <a class="btn btn-primary continue-alert-btn" data-dismiss="modal">Continue</a>
+                        <a class="btn btn-primary try-pin-again hidden">Try Again</a>
+                    </div>
+
+
+                    <!-- Generated Auth PIN -->
+                    <div class="form-section auth-pin">
+                        <div class="head sub">
+                            <a href="#" class="btn btn-link" data-dismiss="modal">
+                                <i class="icon auto">
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                              fill="#5D2684" />
+                                    </svg>
+                                </i>
+                            </a>
+                            <h4>Setup Authorization / USSD PIN</h4>
+                        </div>
+                        <form>
+                            <p>
+                                Setup an Authorization / USSD PIN to enable you perform transactions less than
+                                <strong>₦20,000</strong> and for use with our USSD Channel <strong>*329#</strong>
+                            </p>
+
+                            <p>
+                                <strong>Note</strong> that if you want to perform transactions higher than
+                                <strong>₦20,000</strong>, you will be
+                                required to also set up a <strong>Transaction PIN</strong>
+                            </p>
+
+                            <hr class="dashed" />
+
+                            <label>Enter your preferred Authorization PIN</label>
+                            <div class="input-pin x4">
+                                <input id="p1" type="text" placeholder="*" autocomplete=“off”/>
+                                <input id="p2" type="text" placeholder="*" autocomplete=“off”/>
+                                <input id="p3" type="text" placeholder="*" autocomplete=“off”/>
+                                <input id="p4" type="text" placeholder="*" autocomplete=“off”/>
+                            </div>
+                            <label>Confirm Authorization PIN</label>
+                            <div class="input-pin x4">
+                                <input id="p5" type="text" placeholder="*" autocomplete=“off”/>
+                                <input id="p6" type="text" placeholder="*" autocomplete=“off”/>
+                                <input id="p7" type="text" placeholder="*" autocomplete=“off”/>
+                                <input id="p8" type="text" placeholder="*" autocomplete=“off”/>
+                            </div>
+
+                            <div class="action" id="cont">
+                                <a class="btn btn-primary form-link">Continue</a>
+
+
+                                <a class="btn btn-link text-yellow" data-dismiss="modal" href="#">
+                                    <span>Skip for Now</span>
+                                    <i class="icon auto">
+                                        <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 7.93951L3.43952 4.50001L0 1.0605L1.0605 0L5.56052 4.50001L1.0605 9.00001L0 7.93951Z"
+                                                  fill="#FBB700"></path>
+                                        </svg>
+                                    </i>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Fund Transfer / Single -->
+    <div class="modal fade" id="modal-fund-trn-single" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="card form-card">
+                    <!-- Loading  -->
+                    <div class="form-section loading">
+                        <div class="la-ball-pulse">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <!-- Phone & Amount -->
+                    <div class="form-section fund-trn-phone active" data-default="true">
+                        <div class="head sub">
+                            <a href="#" class="btn btn-link" data-dismiss="modal">
+                                <i class="icon auto">
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                              fill="#5D2684" />
+                                    </svg>
+                                </i>
+                            </a>
+                            <h4>Flash Money</h4>
+                        </div>
+                        <form asp-action="Transfer" asp-controller="Transaction" method="post" id="FormTrans">
+                            <p>Send money to anyone anywhere with just a phone number</p>
+
+                            <div class="input with-icon left">
+                                <i class="icon auto">
+                                    <svg width="12" height="15" viewBox="0 0 12 15" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.4"
+                                              d="M1.7602 15.0002V9.86022H0.200195V8.58022H1.7602V6.94022H0.200195V5.66022H1.7602V0.720215H3.8402L5.7402 5.66022H8.1002V0.720215H9.6802V5.66022H11.2402V6.94022H9.6802V8.58022H11.2402V9.86022H9.6802V15.0002H7.5802L5.6802 9.86022H3.3202V15.0002H1.7602ZM3.2802 5.66022H4.1202L3.2802 3.18022H3.2002L3.2802 5.66022ZM3.3202 8.58022H5.2002L4.6002 6.94022H3.2802L3.3202 8.58022ZM6.8002 8.58022H8.1402L8.1002 6.94022H6.2002L6.8002 8.58022ZM8.1002 12.1802H8.1802L8.1202 9.86022H7.2802L8.1002 12.1802Z"
+                                              fill="#2F1343" />
+                                    </svg>
+                                </i>
+                                <input name="Amount" placeholder="Amount to Send" />
+                                <label>Amount to Send</label>
+                            </div>
+
+                            <div class="input">
+                                <input name="DestinationPhone" placeholder="Phone Number" />
+                                <label>Phone Number</label>
+                            </div>
+
+                            <div class="action">
+                                <button class="btn btn-primary" data-option="load" type="submit" id="ContinueTrans">Continue</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal: Fund Transfer / Multiple -->
+    <div class="modal fade" id="modal-fund-trn-multiple" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="card form-card">
+                    <!-- Loading  -->
+                    <div class="form-section loading f-one">
+                        <div class="la-ball-pulse">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+
+
+                    <!-- Recipient Options -->
+                    <div class="form-section fund-trn-recipient-option patterned f-two active">
+                        <div class="head sub">
+                            <a href="#" class="btn btn-link" data-dismiss="modal">
+                                <i class="icon auto">
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                              fill="#5D2684" />
+                                    </svg>
+                                </i>
+                            </a>
+                            <h4>Flash Money: Multiple</h4>
+                        </div>
+                        <form asp-action="AddRecipient" asp-controller="Transaction" method="post">
+                            <p>How do you want to add recipients for this transactions</p>
+                            <div class="select-list">
+                                <div class="item " id="fund-trn-add-recipient">
+                                    <i class="icon auto">
+                                        <svg width="20" height="11" viewBox="0 0 20 11" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.8333 6.83173C9.16666 6.83173 5.83333 7.6659 5.83333 9.33173V10.9984H15.8333V9.33173C15.8333 7.6659 12.5 6.83173 10.8333 6.83173ZM16.3508 6.96515C17.0417 7.56923 17.5 8.34673 17.5 9.33173V10.9984H20V9.33173C20 8.04756 18.0217 7.25973 16.3508 6.96515ZM10.8333 5.16506C12.2142 5.16506 13.325 4.04504 13.325 2.66504C13.325 1.28504 12.2142 0.165039 10.8333 0.165039C9.45249 0.165039 8.33334 1.28504 8.33334 2.66504C8.33334 4.04504 9.45249 5.16506 10.8333 5.16506ZM15 5.16506C16.3808 5.16506 17.4917 4.04504 17.4917 2.66504C17.4917 1.28504 16.3808 0.165039 15 0.165039C14.7342 0.165039 14.4783 0.207539 14.2375 0.285039C14.71 0.960872 14.9917 1.7792 14.9917 2.66504C14.9917 3.55087 14.71 4.36923 14.2375 5.04506C14.4783 5.12256 14.7342 5.16506 15 5.16506ZM6.66666 4.33171H4.16666V1.83171H2.5V4.33171H0V5.9984H2.5V8.4984H4.16666V5.9984H6.66666V4.33171Z"
+                                                  fill="#FBB700" />
+                                        </svg>
+
+                                    </i>
+                                    <p>
+                                        <strong>Add Recipients</strong>
+                                        <span class="ellipsis">Add phone numbers</span>
+                                    </p>
+                                    <i class="icon auto arrow">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.333194 7.83343V6.16676L10.3419 6.16676L5.75419 1.57909L6.93269 0.400596L13.5322 7.00009L6.93269 13.5996L5.75419 12.4211L10.3419 7.83343L0.333194 7.83343Z"
+                                                  fill="#2F1343" />
+                                        </svg>
+                                    </i>
+                                </div>
+                                <div class="item" id="fund-trn-file-upload">
+                                    <i class="icon auto">
+                                        <svg width="14" height="18" viewBox="0 0 14 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.66634 0.666992H1.99967C1.0792 0.666992 0.333008 1.41316 0.333008 2.33366V15.667C0.333008 16.5875 1.0792 17.3337 1.99967 17.3337H11.9997C12.9202 17.3337 13.6663 16.5875 13.6663 15.667V5.66699L8.66634 0.666992ZM8.24967 12.3337V14.8337H5.74967V12.3337H3.66634L6.99967 9.00033L10.333 12.3337H8.24967ZM7.83301 6.50033V1.91699L12.4163 6.50033H7.83301Z"
+                                                  fill="#FBB700" />
+                                        </svg>
+                                    </i>
+                                    <p>
+                                        <strong>Upload File</strong>
+                                        <span class="ellipsis">Excel or CSV</span>
+                                    </p>
+                                    <i class="icon auto arrow">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.333194 7.83343V6.16676L10.3419 6.16676L5.75419 1.57909L6.93269 0.400596L13.5322 7.00009L6.93269 13.5996L5.75419 12.4211L10.3419 7.83343L0.333194 7.83343Z"
+                                                  fill="#2F1343" />
+                                        </svg>
+                                    </i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <!-- Add Recipient -->
+                    <div class="form-section fund-trn-add-recipient  f-three">
+                        <div class="head sub">
+                            <a href="#" class="btn btn-link form-link" data-link="fund-trn-recipient-list">
+                                <i class="icon auto">
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                              fill="#5D2684" />
+                                    </svg>
+                                </i>
+                            </a>
+                            <h4>Flash Money: Multiple</h4>
+                        </div>
+                        <form>
+                            <p>Send money to anyone anywhere with just a phone number</p>
+
+                            <div class="input with-icon left">
+                                <i class="icon auto">
+                                    <svg width="12" height="15" viewBox="0 0 12 15" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.4"
+                                              d="M1.7602 15.0002V9.86022H0.200195V8.58022H1.7602V6.94022H0.200195V5.66022H1.7602V0.720215H3.8402L5.7402 5.66022H8.1002V0.720215H9.6802V5.66022H11.2402V6.94022H9.6802V8.58022H11.2402V9.86022H9.6802V15.0002H7.5802L5.6802 9.86022H3.3202V15.0002H1.7602ZM3.2802 5.66022H4.1202L3.2802 3.18022H3.2002L3.2802 5.66022ZM3.3202 8.58022H5.2002L4.6002 6.94022H3.2802L3.3202 8.58022ZM6.8002 8.58022H8.1402L8.1002 6.94022H6.2002L6.8002 8.58022ZM8.1002 12.1802H8.1802L8.1202 9.86022H7.2802L8.1002 12.1802Z"
+                                              fill="#2F1343" />
+                                    </svg>
+                                </i>
+                                <input name="Amount" id="AmtField" placeholder="Amount to Send" />
+                                <label>Amount to Send</label>
+                            </div>
+
+                            <input name="Phone" id="PhoneField" type="hidden" />
+
+                            <div class="input">
+                                <input name=" DestinationPhone" id="DestPhoneField" placeholder="Phone Number" />
+                                <label>Phone Number</label>
+                            </div>
+
+                            <div class="action">
+                                <button class="btn btn-primary" id="MAddRecipientButton">Add Recipient</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- File Template -->
+                    <div class="form-section fund-trn-file-template f-five">
+                        <div class="head sub">
+                            <a href="#" class="btn btn-link" data-dismiss="modal">
+                                <i class="icon auto">
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                              fill="#5D2684" />
+                                    </svg>
+                                </i>
+                            </a>
+                            <h4>Flash Money: Multiple</h4>
+                        </div>
+
+
+                        <form asp-action="Upload" asp-controller="Transaction" method="post" enctype="multipart/form-data">
+                            <div class="info">
+                                <i class="icon auto">
+                                    <svg width="52" height="47" viewBox="0 0 52 47" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.785156 3.44765L3.88363 0.370117L47.0439 43.5304L43.9664 46.6289L39.1094 41.7717H8.22391C5.54295 41.7717 3.37159 39.6029 3.37159 36.9194L3.39587 7.80557C3.39587 7.27798 3.47887 6.77028 3.63259 6.29507L0.785156 3.44765ZM47.0425 12.6579V7.80557H17.4951L12.6428 2.95325H47.0425C49.7234 2.95325 51.8948 5.12214 51.8948 7.80557V36.9194C51.8948 38.3714 51.2592 39.6728 50.2508 40.5613L46.6089 36.9194H47.0425V22.3624H32.052L22.3474 12.6579H47.0425ZM8.22391 12.6579H9.99542L8.22391 10.8864V12.6579ZM8.22391 22.3627V36.9194H34.2571L19.7001 22.3627H8.22391Z"
+                                              fill="#FBB700" />
+                                    </svg>
+                                </i>
+                                <p>
+                                    Upload an spreadsheet document to help you get started with multiple flash transfer
+                                </p>
+                            </div>
+                            <p>How to:</p>
+                            <input type="file" hidden class="file-input" name="flash" />
+                            <div class="select-list">
+                                <a class="item" href="~/assets/doc/flash_money_tmpl.csv" target="_blank">
+                                    <i class="icon auto">
+                                        <svg width="10" height="20" viewBox="0 0 10 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.4382 0V20H5.38462V5.09091C5.38462 4.76768 5.3947 4.51515 5.41487 4.33333C4.68885 5 3.90233 5.56566 3.05532 6.0303C2.22846 6.49495 1.39153 6.80808 0.544512 6.9697L0 3.45455C0.927687 3.35354 2.03688 2.93939 3.32757 2.21212C4.63843 1.46465 5.54595 0.727273 6.05013 0H9.4382Z"
+                                                  fill="#FBB700" />
+                                        </svg>
+                                    </i>
+                                    <p>
+                                        <strong>Download Template & Update</strong>
+                                        <span class="ellipsis">A simple speadsheet document</span>
+                                    </p>
+                                    <i class="icon auto arrow">
+                                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 20H15.3846V17.6471H0V20ZM15.3846 7.05881H10.989V0H4.3956V7.05881H0L7.69231 15.2941L15.3846 7.05881Z"
+                                                  fill="#6AC895" />
+                                        </svg>
+                                    </i>
+                                </a>
+                                <a class="item upload-btn" data-link="fund-trn-recipient-list">
+                                    <i class="icon auto">
+                                        <svg width="15" height="20" viewBox="0 0 15 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.6242 17.194C3.02192 15.5821 4.92424 14.1692 6.33117 12.9552C7.73809 11.7413 8.75861 10.6169 9.39272 9.58209C10.0268 8.54726 10.3439 7.52239 10.3439 6.50746C10.3439 5.57214 10.0566 4.81592 9.48189 4.23881C8.92705 3.66169 8.15423 3.37313 7.16344 3.37313C6.07356 3.37313 5.21157 3.75124 4.57746 4.50746C3.94336 5.26368 3.59658 6.33831 3.53713 7.73134L0 6.38806C0.138711 4.39801 0.871898 2.83582 2.19956 1.70149C3.52722 0.567164 5.26111 0 7.40123 0C8.92705 0 10.2151 0.288557 11.2653 0.865671C12.3354 1.44279 13.1379 2.20895 13.6729 3.16418C14.208 4.0995 14.4755 5.13433 14.4755 6.26866C14.4755 8.1194 13.7819 9.87065 12.3948 11.5224C11.0077 13.1542 8.79824 14.9055 5.76642 16.7761V16.806C6.91574 16.7264 8.1146 16.6866 9.363 16.6866H14.7727V20H0.6242V17.194Z"
+                                                  fill="#FBB700" />
+                                        </svg>
+                                    </i>
+                                    <p>
+                                        <strong>Upload Updated Document</strong>
+                                        <span class="ellipsis">Maximum of 20 entries</span>
+                                    </p>
+                                    <i class="icon auto arrow">
+                                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10 0H2C0.89543 0 0 0.8954 0 2V18C0 19.1046 0.89543 20 2 20H14C15.1046 20 16 19.1046 16 18V6L10 0ZM9.5 14V17H6.5V14H4L8 10L12 14H9.5ZM9 7V1.5L14.5 7H9Z"
+                                                  fill="#6AC895" />
+                                        </svg>
+                                    </i>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <!-- Recipient List -->
+                    <div class="form-section fund-trn-recipient-list f-four">
+                        <div class="head sub">
+                            <a href="#" class="btn btn-link form-link" data-link="fund-trn-recipient-option">
+                                <i class="icon auto">
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                              fill="#5D2684" />
+                                    </svg>
+                                </i>
+                            </a>
+                            <h4>Flash Money: Multiple</h4>
+                        </div>
+                        <form asp-action="RecipientList" asp-controller="Transaction" method="post">
+                            <p>Send money to anyone anywhere with just a phone number</p>
+
+                            <div class="recipient-list" id="recipient-list-id">
+                                <div class="title">
+                                    <label>Recipient <span class="count">0</span></label>
+                                    <span>Minimum: 1 | Maximum: 10</span>
+                                </div>
+
+                                <div class="bottom">
+                                    <a class="btn btn-link text-yellow add-another">
+                                        <i class="icon auto">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13.8334 13.8314V2.16471H2.1667V13.8322L13.8334 13.8314ZM13.8333 0.498047C14.7533 0.498047 15.4999 1.24471 15.4999 2.16471V13.8314C15.4999 14.7522 14.7533 15.4981 13.8333 15.4981H2.16667C1.24666 15.4981 0.5 14.7522 0.5 13.8314V2.16471C0.5 1.24471 1.24666 0.498047 2.16667 0.498047H13.8333ZM7.16728 3.83299H8.83394V7.16632H12.1673V8.83299H8.83394V12.1663H7.16728V8.83299H3.83394V7.16632H7.16728V3.83299Z"
+                                                      fill="#FBB700" />
+                                            </svg>
+                                        </i>
+                                        <span>Add Another</span>
+                                        <i class="icon auto">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.531236 6.23096V4.96824L8.11414 4.96824L4.63836 1.49248L5.53123 0.599609L10.5312 5.5996L5.53123 10.5996L4.63836 9.70673L8.11414 6.23096L0.531236 6.23096Z"
+                                                      fill="#FBB700" />
+                                            </svg>
+                                        </i>
+                                    </a>
+                                    <label class="sum">Total: <strong>₦0</strong></label>
+                                </div>
+                            </div>
+
+                            <div class="action">
+                                <button class="btn btn-primary d-none" type="button" id="RecipientListButton">Next</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-fund-wallet" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="card form-card">
+                    <!-- Loading  -->
+                    <div class="form-section loading">
+                        <div class="la-ball-pulse">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

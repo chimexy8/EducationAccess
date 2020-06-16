@@ -1,0 +1,409 @@
+﻿@using System.Globalization
+@model FlashMoney.DTO.UserCardsDTO
+@{
+    ViewData["Title"] = "Index";
+    ViewData["Header"] = "Cards";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@section NAV{
+    <div class="content">
+        <ul>
+            <li>
+                <a asp-action="Index" asp-controller="Home">
+                    <i class="icon">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.3">
+                                <path d="M9 13.2002H15V19.2002H18V10.1767L12 5.69627L6 10.1767V19.2002H9V13.2002ZM3.98438 21.2002V9.20019L12 3.2002L20.0156 9.20019V21.2002H3.98438Z"
+                                      fill="#2F1343" />
+                            </g>
+                        </svg>
+                    </i>
+                    <span>Overview</span>
+                </a>
+            </li>
+            <li>
+                <a asp-action="Index" asp-controller="History">
+                    <i class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.3">
+                                <path d="M13.0008 2.0293V2.0493V4.0493C17.3908 4.5893 20.5008 8.5793 19.9608 12.9693C19.5008 16.6093 16.6408 19.4993 13.0008 19.9293V21.9293C18.5008 21.3793 22.5008 16.4993 21.9508 10.9993C21.5008 6.2493 17.7308 2.4993 13.0008 2.0293ZM11.0008 2.0593C9.05078 2.2493 7.19078 2.9993 5.67078 4.2593L7.10078 5.7393C8.22078 4.8393 9.57078 4.2593 11.0008 4.0593V2.0593ZM4.26078 5.6693C3.00078 7.1893 2.25078 9.03929 2.05078 10.9993H4.05078C4.24078 9.57929 4.80078 8.22929 5.69078 7.09929L4.26078 5.6693ZM2.06078 12.9993C2.26078 14.9593 3.03078 16.8093 4.27078 18.3293L5.69078 16.8993C4.81078 15.7693 4.24078 14.4193 4.06078 12.9993H2.06078ZM7.10078 18.3693L5.67078 19.7393C7.18078 20.9993 9.04078 21.7893 11.0008 21.9993V19.9993C9.58078 19.8193 8.23078 19.2493 7.10078 18.3693ZM12.5008 6.9993V12.2493L17.0008 14.9193L16.2508 16.1493L11.0008 12.9993V6.9993H12.5008Z"
+                                      fill="#2F1343" />
+                            </g>
+                        </svg>
+                    </i>
+                    <span>History</span>
+                </a>
+            </li>
+
+            <li class="active">
+                <a asp-action="Index" asp-controller="Card">
+                    <i class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.3">
+                                <path d="M20.9989 7.9995V5.9995L6.99915 5.99902V7.99902L20.9989 7.9995ZM20.9991 15.999L20.9988 10.9998L6.99902 10.9993L6.99939 15.9985L20.9991 15.999ZM20.9989 3.99951C22.1039 3.99951 22.9989 4.89347 22.9989 5.99951L22.9991 15.999C22.9991 17.1051 22.1042 17.999 20.9991 17.999L6.99939 17.9985C5.89437 17.9985 4.99939 17.1046 4.99939 15.9985L5.00915 5.99902C5.00915 4.89298 5.89412 3.99902 6.99915 3.99902L20.9989 3.99951ZM3 20.0005H18V22.0005L3.00024 22C1.89522 22 1.00024 21.106 1.00024 20L1 9.00048H3V20.0005Z"
+                                      fill="#2F1343" />
+                            </g>
+                        </svg>
+                    </i>
+                    <span>Cards</span>
+                </a>
+            </li>
+            <li>
+                <a asp-action="Index" asp-controller="Settings">
+                    <i class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.3">
+                                <path d="M12.0003 8.00048C14.2094 8.00048 16.0003 9.79134 16.0003 12.0005C16.0003 14.2096 14.2094 16.0005 12.0003 16.0005C9.79115 16.0005 8.00029 14.2096 8.00029 12.0005C8.00029 9.79134 9.79115 8.00048 12.0003 8.00048ZM12.0003 10.0005C10.8957 10.0005 10.0003 10.8959 10.0003 12.0005C10.0003 13.1051 10.8957 14.0005 12.0003 14.0005C13.1049 14.0005 14.0003 13.1051 14.0003 12.0005C14.0003 10.8959 13.1049 10.0005 12.0003 10.0005ZM9.99967 21.9985C9.74967 21.9985 9.54369 21.8156 9.5057 21.5775L9.1307 18.9276C8.52169 18.6755 7.95667 18.3405 7.44068 17.9445L4.95166 18.9475C4.72569 19.0345 4.46367 18.9465 4.33969 18.7306L2.33969 15.2665C2.21469 15.0505 2.26966 14.7805 2.45769 14.6276L4.56969 12.9745L4.49968 11.9985L4.56969 11.0226L2.45769 9.36848C2.26966 9.21655 2.21469 8.94653 2.33969 8.73054L4.33969 5.26652C4.46367 5.05053 4.72569 4.96256 4.95166 5.04955L7.43968 6.05257C7.95567 5.65657 8.52067 5.32153 9.1307 5.06852L9.5057 2.4196C9.54369 2.18148 9.74967 1.99854 9.99967 1.99854L14.0009 2.00049C14.2509 2.00049 14.4569 2.18344 14.4949 2.42155L14.8699 5.07047C15.4799 5.32348 16.0449 5.65852 16.5609 6.05452L19.0489 5.05151C19.2749 4.96451 19.5369 5.05248 19.6609 5.26846L21.6609 8.73249C21.7859 8.94848 21.7309 9.2185 21.5429 9.37043L19.4309 11.0245L19.5009 12.0005L19.4309 12.9765L21.5429 14.6296C21.7309 14.7825 21.7859 15.0525 21.6609 15.2685L19.6609 18.7325C19.5369 18.9485 19.2749 19.0365 19.0489 18.9495L16.5599 17.9465C16.0439 18.3425 15.4789 18.6775 14.8699 18.9295L14.4949 21.5794C14.4569 21.8176 14.2509 22.0005 14.0009 22.0005L9.99967 21.9985ZM11.2503 4.0005L10.8843 6.61377C9.68292 6.86137 8.62463 7.50078 7.84895 8.39254L5.43814 7.35242L4.68814 8.65146L6.80101 10.2029C6.39926 11.3677 6.40005 12.6406 6.80337 13.8049L4.68493 15.3609L5.43493 16.6599L7.85559 15.6161C8.62862 16.5015 9.68077 17.137 10.8748 17.3853L11.2439 20.0174L12.7567 20.0194L13.1258 17.3872C14.3198 17.1389 15.372 16.5034 16.145 15.618L18.5657 16.6619L19.3157 15.3628L17.1972 13.8069C17.6005 12.6425 17.6013 11.3697 17.1996 10.2049L19.3124 8.65341L18.5624 7.35437L16.1516 8.39448C15.3759 7.50273 14.3177 6.86332 13.1163 6.61572L12.7503 4.00245L11.2503 4.0005Z"
+                                      fill="#2F1343" />
+                            </g>
+                        </svg>
+
+                    </i>
+                    <span>Settings</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+}
+
+@if (Model.Cards.Any())
+{
+
+    <section class="content cards">
+        <div class="container">
+            <div class="card animated fadeInUp fast delay-1">
+                <div class="heading">
+                    <label>@Model.Cards.Count() in total</label>
+                    <a class="btn btn-link" data-toggle="modal" data-target="#modal-add-card">
+                        <i class="icon auto arrow">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.9133 12.0518H18.2815V13.6306H15.9133V15.9988H14.3345V13.6306H11.9664V12.0518H14.3345V9.68364H15.9133V12.0518ZM14.3341 4.15635V2.57756H1.70379V4.15635H14.3341ZM14.3341 7.31396H1.70379V12.0502H10.3876V13.629H1.70379C0.831491 13.629 0.125 12.9234 0.125 12.0502L0.132903 2.57756C0.132903 1.70446 0.831491 0.998779 1.70379 0.998779H14.3341C15.2064 0.998779 15.9129 1.70446 15.9129 2.57756V8.10485H14.3341V7.31396Z"
+                                      fill="#5D2684" />
+                            </svg>
+                        </i>
+                        <span>Add New Card</span>
+                    </a>
+                </div>
+                <div class="flex-table">
+                    <div class="tr thead">
+                        <div class="td x2_">*</div>
+                        <div class="td x1_">Expires</div>
+                        <div class="td x2">Card Holder</div>
+                        <div class="td x1_">Last Debited</div>
+                        <div class="td x1_">Total Trans.</div>
+                    </div>
+
+                    @foreach (var item in Model.Cards)
+                    {
+
+                        <div class="tr">
+                            <div class="td x2_">
+                                <div class="avater">
+                                    <img src="~/assets/img/png/card-master.png" />
+                                    <p><strong class="ellipsis">@item.CardNumber</strong></p>
+                                </div>
+                            </div>
+                            <div class="td x1_">
+                                <p>@item.CardExpMonth/@item.CardExpYear</p>
+                            </div>
+                            <div class="td x2">
+                                <p>@item.CardName</p>
+                            </div>
+                            <div class="td x1_">
+                                <strong class="amount debit">-@item.LastDebited.ToString("c", new CultureInfo("ha-Latn-NG"))</strong>
+                            </div>
+                            <div class="td x1_">
+                                <p>@item.TransactionCount Transactions</p>
+                            </div>
+                            <div class="action">
+                                @if (item.Active)
+                                {
+                                    <span class="status green">Default</span>
+                                }
+                                else
+                                {
+                                    <a class="btn btn-link set-btn" asp-action="SetDefault" asp-route-Id="@item.Id">
+                                        <i class="icon auto">
+                                            <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M15.4993 1.83329L5.49935 11.8333L0.916016 7.24996L2.09452 6.07146L5.49935 9.47629L14.3208 0.654785L15.4993 1.83329Z"
+                                                      fill="#6AC895" />
+                                            </svg>
+                                        </i>
+                                        <span>Set as Default</span>
+                                    </a>
+                                    <a class="btn btn-link" asp-action="Delete" asp-route-Id="@item.Id">
+                                        <i class="icon auto">
+                                            <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.999349 13.8333C0.999349 14.75 1.74935 15.5 2.66602 15.5H9.33268C10.2494 15.5 10.9994 14.75 10.9994 13.8333V3.83333H0.999349V13.8333ZM3.04935 7.9L4.22435 6.725L5.99935 8.49167L7.76602 6.725L8.94102 7.9L7.17435 9.66667L8.94102 11.4333L7.76602 12.6083L5.99935 10.8417L4.23268 12.6083L3.05768 11.4333L4.82435 9.66667L3.04935 7.9ZM8.91602 1.33333L8.08268 0.5H3.91602L3.08268 1.33333H0.166016V3H11.8327V1.33333H8.91602Z"
+                                                      fill="#FF7070" />
+                                            </svg>
+
+                                        </i>
+                                    </a>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section class="content cards">
+        <div class="container">
+            <div class="card patterned empty animated fadeInUp fast delay-1">
+                <div class="info">
+                    <i class="icon auto">
+                        <svg width="52" height="47" viewBox="0 0 52 47" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.785156 3.44765L3.88363 0.370117L47.0439 43.5304L43.9664 46.6289L39.1094 41.7717H8.22391C5.54295 41.7717 3.37159 39.6029 3.37159 36.9194L3.39587 7.80557C3.39587 7.27798 3.47887 6.77028 3.63259 6.29507L0.785156 3.44765ZM47.0425 12.6579V7.80557H17.4951L12.6428 2.95325H47.0425C49.7234 2.95325 51.8948 5.12214 51.8948 7.80557V36.9194C51.8948 38.3714 51.2592 39.6728 50.2508 40.5613L46.6089 36.9194H47.0425V22.3624H32.052L22.3474 12.6579H47.0425ZM8.22391 12.6579H9.99542L8.22391 10.8864V12.6579ZM8.22391 22.3627V36.9194H34.2571L19.7001 22.3627H8.22391Z"
+                                  fill="#FBB700" />
+                        </svg>
+                    </i>
+                    <p>You don't have a bank card attached to your account yet.</p>
+
+                    @*<a class="btn btn-link" href="./cards-list.html">
+                            <span>Add New Card</span>
+                            <i class="icon auto">
+                                <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 7.93951L3.43952 4.50001L0 1.0605L1.0605 0L5.56052 4.50001L1.0605 9.00001L0 7.93951Z"
+                                          fill="#5D2684" />
+                                </svg>
+                            </i>
+                        </a>*@
+                    <a class="btn btn-link" data-toggle="modal" data-target="#modal-add-card">
+                        <i class="icon auto arrow">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.9133 12.0518H18.2815V13.6306H15.9133V15.9988H14.3345V13.6306H11.9664V12.0518H14.3345V9.68364H15.9133V12.0518ZM14.3341 4.15635V2.57756H1.70379V4.15635H14.3341ZM14.3341 7.31396H1.70379V12.0502H10.3876V13.629H1.70379C0.831491 13.629 0.125 12.9234 0.125 12.0502L0.132903 2.57756C0.132903 1.70446 0.831491 0.998779 1.70379 0.998779H14.3341C15.2064 0.998779 15.9129 1.70446 15.9129 2.57756V8.10485H14.3341V7.31396Z"
+                                      fill="#5D2684" />
+                            </svg>
+                        </i>
+                        <span>Add New Card</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+};
+
+@section Modals {
+    <!-- Modals -->
+    <section class="modals">
+        <!-- Modal: Add Card -->
+        <div class="modal fade" id="modal-add-card" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="card form-card">
+                        <!-- Loading  -->
+                        <div class="form-section loading">
+                            <div class="la-ball-pulse">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <!-- Success & Error -->
+                        <div class="form-section alert sub success">
+                            <div class="head">
+                                <h4>Add New Card</h4>
+                            </div>
+                            <img src="~/assets/img/png/alert-success.png" class="success-img" />
+
+                            <h3>Add New Card Successful!!</h3>
+                            <p>Your card <strong>(** <span class="last-four"></span>)</strong> has been added to your account. You can now fund your wallet and perform other card-related transactions</p>
+
+                            <a class="btn btn-primary" asp-controller="Card"  asp-action="Index">Continue</a>
+                        </div>
+
+                        <div class="form-section alert sub error">
+                            <div class="head">
+                                <h4>Add New Card</h4>
+                            </div>
+                            <img src="~/assets/img/png/alert-error.png" class="error-img" />
+
+                            <h3>Add New Card Failed!!</h3>
+                            <p>Unable to add your card <strong>(** <span class="last-four"></span>)</strong> to your account. The reason is below:</p>
+                            <p class="fail-message"></p>
+
+                            <a class="btn btn-primary" asp-controller="Card" asp-action="Index">Continue</a>
+                        </div>
+
+                        <!-- Card Info -->
+                        <form id="cc-form" method="post">
+                            <div class="form-section card-info active" data-default="true">
+                                <div class="head sub">
+                                    <a href="#" class="btn btn-link" data-dismiss="modal">
+                                        <i class="icon auto">
+                                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                                      fill="#5D2684" />
+                                            </svg>
+                                        </i>
+                                    </a>
+                                    <h4>Add New Card</h4>
+                                </div>
+
+                                <p>Enter your debit or credit card details to add your card to your account</p>
+                                @if (Model.Charge > 0)
+                                {
+                                    <div class="total_amount">Charge Amount: <span class="outter_total_charge">₦<span class="total_charge">@Model.Charge</span></span><span class="include">&nbsp;&nbsp;(payment gateway charge)</span></div>
+                                }
+                                <span class="cc-form-errors hidden error_message"></span>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input with-icon left">
+                                            <img class="credit-card-type" src="/assets/img/png/nocard.png" height="20" />
+                                            <input required name="number" class="credit-card" type="text" placeholder="Card Number" />
+                                            <label>Card Number</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="input with-icon">
+                                            <i class="icon auto">
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <g opacity="0.3">
+                                                        <path d="M5.83333 10.0001H7.5V11.6667H5.83333V10.0001ZM17.5 5.00007V16.6667C17.5 17.5834 16.75 18.3334 15.8333 18.3334H4.16667C3.24167 18.3334 2.5 17.5834 2.5 16.6667L2.50833 5.00007C2.50833 4.08341 3.24167 3.33341 4.16667 3.33341H5V1.66675H6.66667V3.33341H13.3333V1.66675H15V3.33341H15.8333C16.75 3.33341 17.5 4.08341 17.5 5.00007ZM4.16667 6.66674H15.8333V5.00007H4.16667V6.66674ZM15.8333 16.6667V8.33341H4.16667V16.6667H15.8333ZM12.5 11.6667V10.0001H14.1667V11.6667H12.5ZM9.16667 11.6667V10.0001H10.8333V11.6667H9.16667ZM5.83333 13.3334H7.5V15.0001H5.83333V13.3334ZM12.5 15.0001V13.3334H14.1667V15.0001H12.5ZM9.16667 15.0001V13.3334H10.8333V15.0001H9.16667Z"
+                                                              fill="#101010" />
+                                                    </g>
+                                                </svg>
+                                            </i>
+                                            <input name="expiry" class="expire" type="text" placeholder="Expiring Date" />
+                                            <label>Expiring Date</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="input with-icon" data-toggle="tooltip" data-placement="bottom"
+                                             title="Find the CVV three digit (***) number at the back of your card">
+                                            <i class="icon auto">
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <g opacity="0.3">
+                                                        <path d="M10.8327 7.49837H9.16599V5.83171H10.8327V7.49837ZM10.8327 14.165H9.16599V9.165H10.8327V14.165ZM9.99932 1.66504C5.39684 1.66504 1.66602 5.39586 1.66602 9.99833C1.66602 14.6009 5.39684 18.3317 9.99932 18.3317C14.6018 18.3317 18.3327 14.6009 18.3327 9.99833C18.3327 5.39586 14.6018 1.66504 9.99932 1.66504Z"
+                                                              fill="#101010" />
+                                                    </g>
+                                                </svg>
+                                            </i>
+                                            <input name="cvv" type="password" placeholder="CVV" maxlength="3" class="cvv"/>
+                                            <label>CVV</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="action">
+                                    <a class="btn btn-primary form-link-next" data-link="card-pin"
+                                       data-option="load">Continue</a>
+                                </div>
+
+                            </div>
+
+                            <!-- Card PIN -->
+                            <div class="form-section card-pin">
+                                <div class="head sub">
+                                    <a href="#" class="btn btn-link form-link" data-link="card-info">
+                                        <i class="icon auto">
+                                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                                      fill="#5D2684" />
+                                            </svg>
+                                        </i>
+                                    </a>
+                                    <h4>Add New Card</h4>
+                                </div>
+
+                                <div class="summary-card">
+                                    <div class="avater">
+                                        <img src="~/assets/img/png/nocard.png" class="card-type-processing" />
+                                        <p>
+                                            <strong>**** **** **** <span class="last-four"></span></strong>
+                                            <span>Expires: <span class="expiry-dd"></span></span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p>Enter your <strong>4-digit</strong> card PIN</p>
+                                <span class="cc-form-errors hidden error_message"></span>
+                                <div class="input-pin x4">
+                                    <input name="pin1" type="password" placeholder="*" autocomplete=“off”/>
+                                    <input name="pin2" type="password" placeholder="*" autocomplete=“off”/>
+                                    <input name="pin3" type="password" placeholder="*" autocomplete=“off”/>
+                                    <input name="pin4" type="password" placeholder="*" autocomplete=“off”/>
+                                </div>
+                                <div class="action">
+                                    <a class="btn btn-primary form-link-card" data-link="alert"
+                                       data-option="success">Continue</a>
+                                </div>
+
+                            </div>
+                        </form>
+                        <!-- Card OTP -->
+                        <div class="form-section card-otp">
+                            <div class="head sub">
+                                <a href="#" class="btn btn-link form-link" data-link="card-info">
+                                    <i class="icon auto">
+                                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                                  fill="#5D2684" />
+                                        </svg>
+                                    </i>
+                                </a>
+                                <h4>Add New Card</h4>
+                            </div>
+                            <form id="get-otp" method="post">
+                                <div class="summary-card">
+                                    <div class="avater">
+                                        <img src="~/assets/img/png/nocard.png" />
+                                        <p>
+                                            <strong>**** **** **** <span class="last-four"></span></strong>
+                                            <span>Expires: <span class="expiry-dd"></span></span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p>Enter your OTP to complete adding your card</p>
+
+                                <div class="input-pin x6">
+                                    <input required name="otp1" type="text" placeholder="*" />
+                                    <input required name="otp2" type="text" placeholder="*" />
+                                    <input required name="otp3" type="text" placeholder="*" />
+                                    <input required name="otp4" type="text" placeholder="*" />
+                                    <input required name="otp5" type="text" placeholder="*" />
+                                    <input required name="otp6" type="text" placeholder="*" />
+                                </div>
+                                <div class="action">
+                                    <a id="save-code" class="btn btn-primary" data-link="alert"
+                                       data-option="success">Add Card</a>
+                                </div>
+                            </form>
+
+                        </div>
+                        <!-- Card 3DS -->
+                        <div class="form-section card-3ds">
+                            <div class="head sub">
+                                <h4>Authorise New Card</h4>
+                            </div>
+                            <iframe src="" id="iframe-3ds" width="100%" height="400px" style="border: 0;"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}

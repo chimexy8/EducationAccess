@@ -1,0 +1,40 @@
+﻿@model FlashMoney.Models.BvnOrPhoneModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Create Account: Phone & BVN -->
+<div class="form-section create-account-phone active">
+    <div class="head">
+        <h4>Create an account</h4>
+        <a asp-action="SignIn" asp-controller="Auth" class="btn btn-link text-yellow" >
+            <span>Login Instead</span>
+            <i class="icon auto">
+                <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.44043 7.93951L3.87995 4.50001L0.44043 1.0605L1.50093 0L6.00095 4.50001L1.50093 9.00001L0.44043 7.93951Z"
+                          fill="#FBB700" />
+                </svg>
+            </i>
+        </a>
+    </div>
+
+    <form asp-action="Register" asp-controller="Auth" method="post">
+        <p>Sign up with your phone number or give us your BVN to help you get started</p>
+        <div class="input">
+            <input asp-for="Phone" placeholder="Phone Number" />
+            <label>Phone Number</label>
+        </div>
+        <div class="text-divider">
+            <span>OR</span>
+        </div>
+        <div class="input">
+            <input asp-for="BVN" placeholder="Bank Verification Number (BVN)" />
+            <label>Bank Verification Number (BVN)</label>
+        </div>
+
+        <div class="action">
+            <button class="btn btn-primary" type="submit">Continue</button>
+        </div>
+    </form>
+</div>

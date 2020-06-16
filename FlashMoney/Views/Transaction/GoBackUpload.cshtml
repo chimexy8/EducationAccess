@@ -1,0 +1,249 @@
+﻿@model FlashMoney.Models.OverviewModel
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="card form-card">
+    <!-- Loading  -->
+    <div class="form-section loading">
+        <div class="la-ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Recipient Options -->
+    <div class="form-section fund-trn-recipient-option patterned f-two">
+        <div class="head sub">
+            <a href="#" class="btn btn-link" data-dismiss="modal">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Flash Money: Multiple</h4>
+        </div>
+        <form asp-action="AddRecipient" asp-controller="Transaction" method="post">
+            <p>How do you want to add recipients for this transactions</p>
+            <div class="select-list">
+                <div class="item " id="fund-trn-add-recipient">
+                    <i class="icon auto">
+                        <svg width="20" height="11" viewBox="0 0 20 11" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.8333 6.83173C9.16666 6.83173 5.83333 7.6659 5.83333 9.33173V10.9984H15.8333V9.33173C15.8333 7.6659 12.5 6.83173 10.8333 6.83173ZM16.3508 6.96515C17.0417 7.56923 17.5 8.34673 17.5 9.33173V10.9984H20V9.33173C20 8.04756 18.0217 7.25973 16.3508 6.96515ZM10.8333 5.16506C12.2142 5.16506 13.325 4.04504 13.325 2.66504C13.325 1.28504 12.2142 0.165039 10.8333 0.165039C9.45249 0.165039 8.33334 1.28504 8.33334 2.66504C8.33334 4.04504 9.45249 5.16506 10.8333 5.16506ZM15 5.16506C16.3808 5.16506 17.4917 4.04504 17.4917 2.66504C17.4917 1.28504 16.3808 0.165039 15 0.165039C14.7342 0.165039 14.4783 0.207539 14.2375 0.285039C14.71 0.960872 14.9917 1.7792 14.9917 2.66504C14.9917 3.55087 14.71 4.36923 14.2375 5.04506C14.4783 5.12256 14.7342 5.16506 15 5.16506ZM6.66666 4.33171H4.16666V1.83171H2.5V4.33171H0V5.9984H2.5V8.4984H4.16666V5.9984H6.66666V4.33171Z"
+                                  fill="#FBB700" />
+                        </svg>
+
+                    </i>
+                    <p>
+                        <strong>Add Recipients</strong>
+                        <span class="ellipsis">Add phone numbers</span>
+                    </p>
+                    <i class="icon auto arrow">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.333194 7.83343V6.16676L10.3419 6.16676L5.75419 1.57909L6.93269 0.400596L13.5322 7.00009L6.93269 13.5996L5.75419 12.4211L10.3419 7.83343L0.333194 7.83343Z"
+                                  fill="#2F1343" />
+                        </svg>
+                    </i>
+                </div>
+                <div class="item" id="fund-trn-file-upload">
+                    <i class="icon auto">
+                        <svg width="14" height="18" viewBox="0 0 14 18" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.66634 0.666992H1.99967C1.0792 0.666992 0.333008 1.41316 0.333008 2.33366V15.667C0.333008 16.5875 1.0792 17.3337 1.99967 17.3337H11.9997C12.9202 17.3337 13.6663 16.5875 13.6663 15.667V5.66699L8.66634 0.666992ZM8.24967 12.3337V14.8337H5.74967V12.3337H3.66634L6.99967 9.00033L10.333 12.3337H8.24967ZM7.83301 6.50033V1.91699L12.4163 6.50033H7.83301Z"
+                                  fill="#FBB700" />
+                        </svg>
+                    </i>
+                    <p>
+                        <strong>Upload File</strong>
+                        <span class="ellipsis">Excel or CSV</span>
+                    </p>
+                    <i class="icon auto arrow">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.333194 7.83343V6.16676L10.3419 6.16676L5.75419 1.57909L6.93269 0.400596L13.5322 7.00009L6.93269 13.5996L5.75419 12.4211L10.3419 7.83343L0.333194 7.83343Z"
+                                  fill="#2F1343" />
+                        </svg>
+                    </i>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Add Recipient -->
+    <div class="form-section fund-trn-add-recipient  f-three">
+        <div class="head sub">
+            <a href="#" class="btn btn-link form-link" data-link="fund-trn-recipient-option">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Flash Money: Multiple</h4>
+        </div>
+        <form>
+            <p>Send money to anyone anywhere with just a phone number</p>
+
+            <div class="input with-icon left">
+                <i class="icon auto">
+                    <svg width="12" height="15" viewBox="0 0 12 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.4"
+                              d="M1.7602 15.0002V9.86022H0.200195V8.58022H1.7602V6.94022H0.200195V5.66022H1.7602V0.720215H3.8402L5.7402 5.66022H8.1002V0.720215H9.6802V5.66022H11.2402V6.94022H9.6802V8.58022H11.2402V9.86022H9.6802V15.0002H7.5802L5.6802 9.86022H3.3202V15.0002H1.7602ZM3.2802 5.66022H4.1202L3.2802 3.18022H3.2002L3.2802 5.66022ZM3.3202 8.58022H5.2002L4.6002 6.94022H3.2802L3.3202 8.58022ZM6.8002 8.58022H8.1402L8.1002 6.94022H6.2002L6.8002 8.58022ZM8.1002 12.1802H8.1802L8.1202 9.86022H7.2802L8.1002 12.1802Z"
+                              fill="#2F1343" />
+                    </svg>
+                </i>
+                <input asp-for="MultipleTransModel.Amount" id="AmtField" placeholder="Amount to Send" class="currency amtfield" />
+                <label>Amount to Send</label>
+            </div>
+
+            <input asp-for="Phone" id="PhoneField" type="hidden" />
+
+            <div class="input">
+                <input asp-for="MultipleTransModel.DestinationPhone" id="DestPhoneField" placeholder="Phone Number" type="number" />
+                <label>Phone Number</label>
+            </div>
+
+            <div class="action">
+                <button class="btn btn-primary" id="MAddRecipientButton">Add Recipient</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- File Template -->
+    <div class="form-section fund-trn-file-template f-five active">
+        <div class="head sub">
+            <a href="#" class="btn btn-link form-link" data-link="fund-trn-recipient-option">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Flash Money: Multiple</h4>
+        </div>
+
+
+        <form asp-action="Upload" asp-controller="Transaction" method="post" enctype="multipart/form-data">
+            <div class="info">
+                <i class="icon auto">
+                    <svg width="52" height="47" viewBox="0 0 52 47" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.785156 3.44765L3.88363 0.370117L47.0439 43.5304L43.9664 46.6289L39.1094 41.7717H8.22391C5.54295 41.7717 3.37159 39.6029 3.37159 36.9194L3.39587 7.80557C3.39587 7.27798 3.47887 6.77028 3.63259 6.29507L0.785156 3.44765ZM47.0425 12.6579V7.80557H17.4951L12.6428 2.95325H47.0425C49.7234 2.95325 51.8948 5.12214 51.8948 7.80557V36.9194C51.8948 38.3714 51.2592 39.6728 50.2508 40.5613L46.6089 36.9194H47.0425V22.3624H32.052L22.3474 12.6579H47.0425ZM8.22391 12.6579H9.99542L8.22391 10.8864V12.6579ZM8.22391 22.3627V36.9194H34.2571L19.7001 22.3627H8.22391Z"
+                              fill="#FBB700" />
+                    </svg>
+                </i>
+                <p>
+                    Upload an spreadsheet document to help you get started with multiple flash transfer
+                </p>
+            </div>
+            <span class="error_message"></span>
+            <p>How to:</p>
+            <input type="file" hidden class="file-input" name="flash" />
+            <div class="select-list">
+                <a class="item" href="~/assets/doc/flash_money_tmpl.csv" target="_blank">
+                    <i class="icon auto">
+                        <svg width="10" height="20" viewBox="0 0 10 20" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.4382 0V20H5.38462V5.09091C5.38462 4.76768 5.3947 4.51515 5.41487 4.33333C4.68885 5 3.90233 5.56566 3.05532 6.0303C2.22846 6.49495 1.39153 6.80808 0.544512 6.9697L0 3.45455C0.927687 3.35354 2.03688 2.93939 3.32757 2.21212C4.63843 1.46465 5.54595 0.727273 6.05013 0H9.4382Z"
+                                  fill="#FBB700" />
+                        </svg>
+                    </i>
+                    <p>
+                        <strong>Download Template & Update</strong>
+                        <span class="ellipsis">A simple speadsheet document</span>
+                    </p>
+                    <i class="icon auto arrow">
+                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 20H15.3846V17.6471H0V20ZM15.3846 7.05881H10.989V0H4.3956V7.05881H0L7.69231 15.2941L15.3846 7.05881Z"
+                                  fill="#6AC895" />
+                        </svg>
+                    </i>
+                </a>
+                <a class="item upload-btn" data-link="fund-trn-recipient-list">
+                    <i class="icon auto">
+                        <svg width="15" height="20" viewBox="0 0 15 20" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.6242 17.194C3.02192 15.5821 4.92424 14.1692 6.33117 12.9552C7.73809 11.7413 8.75861 10.6169 9.39272 9.58209C10.0268 8.54726 10.3439 7.52239 10.3439 6.50746C10.3439 5.57214 10.0566 4.81592 9.48189 4.23881C8.92705 3.66169 8.15423 3.37313 7.16344 3.37313C6.07356 3.37313 5.21157 3.75124 4.57746 4.50746C3.94336 5.26368 3.59658 6.33831 3.53713 7.73134L0 6.38806C0.138711 4.39801 0.871898 2.83582 2.19956 1.70149C3.52722 0.567164 5.26111 0 7.40123 0C8.92705 0 10.2151 0.288557 11.2653 0.865671C12.3354 1.44279 13.1379 2.20895 13.6729 3.16418C14.208 4.0995 14.4755 5.13433 14.4755 6.26866C14.4755 8.1194 13.7819 9.87065 12.3948 11.5224C11.0077 13.1542 8.79824 14.9055 5.76642 16.7761V16.806C6.91574 16.7264 8.1146 16.6866 9.363 16.6866H14.7727V20H0.6242V17.194Z"
+                                  fill="#FBB700" />
+                        </svg>
+                    </i>
+                    <p>
+                        <strong>Upload Updated Document</strong>
+                        <span class="ellipsis">Maximum of 20 entries</span>
+                    </p>
+                    <i class="icon auto arrow">
+                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0H2C0.89543 0 0 0.8954 0 2V18C0 19.1046 0.89543 20 2 20H14C15.1046 20 16 19.1046 16 18V6L10 0ZM9.5 14V17H6.5V14H4L8 10L12 14H9.5ZM9 7V1.5L14.5 7H9Z"
+                                  fill="#6AC895" />
+                        </svg>
+                    </i>
+                </a>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Recipient List -->
+    <div class="form-section fund-trn-recipient-list f-four">
+        <div class="head sub">
+            <a href="#" class="btn btn-link form-link" data-link="fund-trn-add-recipient">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Flash Money: Multiple</h4>
+        </div>
+        <form asp-action="RecipientList" asp-controller="Transaction" method="post">
+            <p>Send money to anyone anywhere with just a phone number</p>
+
+            <div class="recipient-list" id="recipient-list-id">
+                <div class="title">
+                    <label>Recipient <span class="count">0</span></label>
+                    <span>Minimum: 1 | Maximum: 10</span>
+                </div>
+
+                <div class="bottom">
+                    <a class="btn btn-link text-yellow add-another">
+                        <i class="icon auto">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.8334 13.8314V2.16471H2.1667V13.8322L13.8334 13.8314ZM13.8333 0.498047C14.7533 0.498047 15.4999 1.24471 15.4999 2.16471V13.8314C15.4999 14.7522 14.7533 15.4981 13.8333 15.4981H2.16667C1.24666 15.4981 0.5 14.7522 0.5 13.8314V2.16471C0.5 1.24471 1.24666 0.498047 2.16667 0.498047H13.8333ZM7.16728 3.83299H8.83394V7.16632H12.1673V8.83299H8.83394V12.1663H7.16728V8.83299H3.83394V7.16632H7.16728V3.83299Z"
+                                      fill="#FBB700" />
+                            </svg>
+                        </i>
+                        <span>Add Another</span>
+                        <i class="icon auto">
+                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.531236 6.23096V4.96824L8.11414 4.96824L4.63836 1.49248L5.53123 0.599609L10.5312 5.5996L5.53123 10.5996L4.63836 9.70673L8.11414 6.23096L0.531236 6.23096Z"
+                                      fill="#FBB700" />
+                            </svg>
+                        </i>
+                    </a>
+                    <label class="sum">Total: <strong>₦0</strong></label>
+                </div>
+            </div>
+
+            <div class="action">
+                <button class="btn btn-primary d-none" type="button" id="RecipientListButton">Next</button>
+            </div>
+        </form>
+    </div>
+
+</div>

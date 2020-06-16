@@ -1,0 +1,69 @@
+﻿@using System.Globalization
+@model FlashMoney.Models.MultipleTransModel
+<div class="card form-card">
+    <!-- Loading  -->
+    <div class="form-section loading">
+        <div class="la-ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- OTP Token -->
+    <div class="form-section fund-trn-otptoken active">
+        <div class="head sub">
+            <a href="#" class="btn " id="GoBackUploadButton">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Flash Money: Multiple</h4>
+        </div>
+        <form asp-action="MultipleOTPTransfer" asp-controller="Transaction" method="post">
+            <div class="summary-card">
+                <div class="avater">
+                    <i class="icon auto">
+                        <svg width="28" height="17" viewBox="0 0 28 17" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 0C11.8912 0 10.1818 1.75636 10.1818 3.92308C10.1818 6.08979 11.8912 7.84615 14 7.84615C16.1088 7.84615 17.8182 6.08979 17.8182 3.92308C17.8182 1.75636 16.1088 0 14 0ZM6.36364 2.83246C4.60637 2.83246 3.18182 4.29616 3.18182 6.10169C3.18182 7.90722 4.60637 9.37092 6.36364 9.37092C7.48216 9.37092 8.46105 8.77605 9.02841 7.87937C8.17488 6.77947 7.63636 5.42496 7.63636 3.92308C7.63636 3.65748 7.65781 3.39673 7.68857 3.13898C7.28401 2.94754 6.83824 2.83246 6.36364 2.83246ZM21.6364 2.83246C21.1618 2.83246 20.7159 2.94754 20.3115 3.13898C20.3423 3.39673 20.3636 3.65748 20.3636 3.92308C20.3636 5.42496 19.8251 6.77947 18.9717 7.87937C19.5389 8.77605 20.5179 9.37092 21.6364 9.37092C23.3936 9.37092 24.8182 7.90722 24.8182 6.10169C24.8182 4.29616 23.3936 2.83246 21.6364 2.83246ZM14 10.4615C11.4545 10.4615 6.36364 11.7692 6.36364 14.3846V17H21.6364V14.3846C21.6364 11.7692 16.5455 10.4615 14 10.4615ZM4.67578 11.7258C2.54174 12.1058 0 13.1322 0 14.8214V17H3.81818V14.3846C3.81818 13.3658 4.18471 12.4651 4.67578 11.7258ZM23.3243 11.7258C23.8153 12.4651 24.1818 13.3658 24.1818 14.3846V17H28V14.8214C28 13.1322 25.4582 12.1058 23.3243 11.7258Z"
+                                  fill="#5D2684" />
+                        </svg>
+                    </i>
+                    <p>
+                        <strong>@Model.RecipientCount Recipients</strong>
+                    </p>
+                </div>
+                <div class="sum">
+                    <strong>@Model.Sum.ToString("c", new CultureInfo("ha-Latn-NG"))</strong>
+                    <label>Charge: <em>@Model.TransferCharge.ToString("c", new CultureInfo("ha-Latn-NG"))</em></label>
+                </div>
+            </div>
+
+            <p class="auth_pin_text">A <strong>six digit token (OTP)</strong> was sent to you, enter token below</p>
+            <input asp-for="TransferCharge" placeholder="Phone Number" type="hidden"  />
+            <input asp-for="Rps" placeholder="Phone Number" type="hidden" />
+            <input asp-for="RecipientCount" placeholder="Phone Number" type="hidden" />
+            <input asp-for="Sum" placeholder="Phone Number" type="hidden" />
+            <input asp-for="AuthType" placeholder="Phone Number" type="hidden" />
+            <input asp-for="DestinationPhone" placeholder="Phone Number" type="hidden" />
+            <input asp-for="Pin" placeholder="Phone Number" type="hidden" />
+            <div class="input-pin x6">
+                <input asp-for="One" type="text" placeholder="*" autocomplete=“off” />
+                <input asp-for="Two" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Three" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Four" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Five" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Six" type="text" placeholder="*" autocomplete=“off”/>
+            </div>
+            <p>Didn't get code <a href="#" class="btn btn-link text-yellow p-0">Resend</a></p>
+            <div class="action">
+                <button class="btn btn-primary" type="submit" id="CompleteOTPTransfer">Continue</button>
+            </div>
+        </form>
+    </div>
+</div>

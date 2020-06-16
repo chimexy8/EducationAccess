@@ -1,0 +1,47 @@
+﻿@model FlashMoney.Models.AirtimeModel
+@{
+    ViewData["Title"] = "Airtime";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Airtime" asp-controller="Transaction" method="post">
+            <h4>Create a new account.</h4>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SourcePhone"></label>
+                <input asp-for="SourcePhone" class="form-control" readonly="readonly"/>
+                <span asp-validation-for="SourcePhone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DestinationPhone"></label>
+                <input asp-for="DestinationPhone" class="form-control" />
+                <span asp-validation-for="DestinationPhone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Amount"></label>
+                <input asp-for="Amount" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NetWork"></label>
+                <select asp-for="NetWork" class="form-control" asp-items="Html.GetEnumSelectList<NetWork>()"></select>
+                <span asp-validation-for="NetWork" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Pin"></label>
+                <input asp-for="Pin" class="form-control" />
+                <span asp-validation-for="Pin" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+

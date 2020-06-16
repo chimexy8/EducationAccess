@@ -1,0 +1,53 @@
+﻿@model FlashMoney.DTO.AddCardDTO
+<div class="card form-card">
+    <!-- Loading  -->
+    <div class="form-section loading">
+        <div class="la-ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Card PIN -->
+    <div class="form-section card-pin active">
+        <div class="head sub">
+            <a href="#" class="btn btn-link form-link" data-link="card-info">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Add New Card</h4>
+        </div>
+        <form asp-action="AddCard" asp-controller="Card" method="post">
+
+            <div class="summary-card">
+                <div class="avater">
+                    <img src="~/assets/img/png/card-master.png" />
+                    <p>
+                        <strong>@Model.CardNumberFux</strong>
+                        <span>Expiry: @Model.expire</span>
+                    </p>
+                </div>
+            </div>
+
+            <p>Enter your <strong>four digit card PIN</strong> to completed adding your card</p>
+            <input asp-for="CardNumber" type="hidden" />
+            <input asp-for="expire" type="hidden" />
+            <input asp-for="CVV" type="hidden" />
+            <div class="input-pin x4">
+                <input asp-for="One" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Two" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Three" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Four" placeholder="*" autocomplete=“off”/>
+            </div>
+            <div class="action">
+                <button class="btn btn-primary" type="submit" id="CardPinButton">Continue</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,113 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<form>
+    <p>Add funds to your wallet so you can perform tarnsactions with</p>
+    <span class="error_message"></span>
+    <div class="input with-icon left">
+        <i class="icon auto">
+            <svg width="12" height="15" viewBox="0 0 12 15" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.4"
+                      d="M1.7602 15.0002V9.86022H0.200195V8.58022H1.7602V6.94022H0.200195V5.66022H1.7602V0.720215H3.8402L5.7402 5.66022H8.1002V0.720215H9.6802V5.66022H11.2402V6.94022H9.6802V8.58022H11.2402V9.86022H9.6802V15.0002H7.5802L5.6802 9.86022H3.3202V15.0002H1.7602ZM3.2802 5.66022H4.1202L3.2802 3.18022H3.2002L3.2802 5.66022ZM3.3202 8.58022H5.2002L4.6002 6.94022H3.2802L3.3202 8.58022ZM6.8002 8.58022H8.1402L8.1002 6.94022H6.2002L6.8002 8.58022ZM8.1002 12.1802H8.1802L8.1202 9.86022H7.2802L8.1002 12.1802Z"
+                      fill="#2F1343" />
+            </svg>
+        </i>
+        <input class="currency" type="text" id="amounttoadd" placeholder="Amount to Add" />
+        <label>Amount to Add</label>
+    </div>
+
+    <p class="m-0">Select Source:</p>
+    <div class="select-list">
+
+
+        @if (ViewBag.SavedCards != null)
+        {
+            foreach (var item in ViewBag.SavedCards)
+            {
+
+                <div class="item ">
+                    <a>
+                        <input type="hidden" class="phonenumber" value="@ViewBag.Phone" />
+                        <input type="hidden" class="cId" value="@item.Id" />
+
+                        <img src="~/assets/img/png/card-master.png" />
+                        <p>
+                            @{ var phone = $"**** **** **** {item.CardNumber.Substring(item.CardNumber.Length - 4)} ";}
+                            <strong>@phone</strong>
+                            <span class="ellipsis">Expired: @item.CardExpMonth / @item.CardExpYear | @item.CardName</span>
+                        </p>
+                        <i class="icon auto check">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 7.00015L9 19.0001L3.5 13.5001L4.91421 12.0859L9 16.1717L19.5858 5.58594L21 7.00015Z"
+                                      fill="#6AC895" />
+                            </svg>
+                        </i>
+                    </a>
+
+
+
+                </div>
+            }
+        }
+
+
+
+
+        <a class="item link" href="~/cards.html">
+            <i class="icon auto">
+                <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.4992 11.9998H19.9992V13.6665H17.4992V16.1665H15.8325V13.6665H13.3325V11.9998H15.8325V9.49984H17.4992V11.9998ZM15.832 3.66488V1.99821H2.4987V3.66488H15.832ZM15.832 6.99825H2.4987V11.9982H11.6659V13.6648H2.4987C1.57785 13.6648 0.832031 12.9199 0.832031 11.9982L0.840374 1.99821C0.840374 1.07651 1.57785 0.331543 2.4987 0.331543H15.832C16.7529 0.331543 17.4987 1.07651 17.4987 1.99821V7.83317H15.832V6.99825Z"
+                          fill="#FBB700" />
+                </svg>
+            </i>
+            <p>
+                <strong>Add New Debit/Credit Card</strong>
+                <span class="ellipsis">mastercard, visa, etc..</span>
+            </p>
+            <i class="icon auto arrow">
+                <svg width="7" height="11" viewBox="0 0 7 11" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.154297 9.82022L3.97599 5.99855L0.154297 2.17687L1.33263 0.998535L6.33265 5.99855L1.33263 10.9986L0.154297 9.82022Z"
+                          fill="#101010" />
+                </svg>
+            </i>
+        </a>
+    </div>
+
+
+
+
+</form>
+
+@*<script>
+
+    $(document).on("click", '.Authorize', function () {
+
+
+        debugger
+        var amount1 = $("#amount").val;
+        $.ajax({
+            type: 'GET',
+            url: '/Card/GetPhone',
+            cache: false,
+            data: {
+                amount: amount1
+            },
+            dataType: 'html',
+            success: function (data) {
+                debugger
+                $("#modal-body1").html(data);
+                $("#modal-fund-wallet").modal("show");
+            }
+        });
+
+
+
+
+    }
+</script>*@

@@ -1,0 +1,53 @@
+﻿@model FlashMoney.Models.MultipleTransModel
+
+<div class="card form-card">
+    <!-- Loading  -->
+    <div class="form-section loading">
+        <div class="la-ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Add Recipient -->
+    <div class="form-section fund-trn-add-recipient active">
+        <div class="head sub">
+            <a href="#" class="btn btn-link form-link" data-link="fund-trn-recipient-option">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Flash Money: Multiple</h4>
+        </div>
+        <form asp-action="MultipleAddRecipient" asp-controller="Transaction" method="post">
+            <p>Send money to anyone anywhere with just a phone number</p>
+
+            <div class="input with-icon left">
+                <i class="icon auto">
+                    <svg width="12" height="15" viewBox="0 0 12 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.4"
+                              d="M1.7602 15.0002V9.86022H0.200195V8.58022H1.7602V6.94022H0.200195V5.66022H1.7602V0.720215H3.8402L5.7402 5.66022H8.1002V0.720215H9.6802V5.66022H11.2402V6.94022H9.6802V8.58022H11.2402V9.86022H9.6802V15.0002H7.5802L5.6802 9.86022H3.3202V15.0002H1.7602ZM3.2802 5.66022H4.1202L3.2802 3.18022H3.2002L3.2802 5.66022ZM3.3202 8.58022H5.2002L4.6002 6.94022H3.2802L3.3202 8.58022ZM6.8002 8.58022H8.1402L8.1002 6.94022H6.2002L6.8002 8.58022ZM8.1002 12.1802H8.1802L8.1202 9.86022H7.2802L8.1002 12.1802Z"
+                              fill="#2F1343" />
+                    </svg>
+                </i>
+                <input asp-for="Amount" placeholder="Amount to Send" />
+                <label>Amount to Send</label>
+            </div>
+
+            <div class="input">
+                <input asp-for="DestinationPhone" placeholder="Phone Number" />
+                <label>Phone Number</label>
+            </div>
+
+            <div class="action">
+                <button class="btn btn-primary" type="submit" id="MAddRecipientButton">Add Recipient</button>
+            </div>
+        </form>
+    </div>
+</div>

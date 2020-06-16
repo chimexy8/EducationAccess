@@ -1,0 +1,46 @@
+﻿@model FlashMoney.Models.OTPValidationModel
+@{
+    ViewData["Title"] = "Validate Phone";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- OTP Verification -->
+<div class="form-section otp-verification active">
+    <div class="head sub">
+        <a asp-action="Register" asp-controller="Auth" class="btn btn-link">
+            <i class="icon auto">
+                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                          fill="#5D2684" />
+                </svg>
+            </i>
+        </a>
+        <h4>Create an account</h4>
+    </div>
+    <form asp-action="ValidatePhone" asp-controller="Auth" method="post">
+        <h4 class="text-gradient">Verification</h4>
+        <p>A <strong>six digit token (OTP)</strong> was sent to you, enter token below</p>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="input">
+            <input asp-for="Phone" placeholder="Phone Number" type="hidden" />
+        </div>
+
+        <div class="input-pin x6">
+            <input  asp-for="One" type="text" placeholder="*" />
+            <input  asp-for="Two" type="text" placeholder="*" />
+            <input  asp-for="Three" type="text" placeholder="*" />
+            <input  asp-for="Four" type="text" placeholder="*" />
+            <input  asp-for="Five" type="text" placeholder="*" />
+            <input  asp-for="Six" type="text" placeholder="*" />
+        </div>
+        <p>Didn't get code <a asp-action="ResendCode"  asp-controller="Auth" asp-route-Phone="@Model.Phone" class="btn btn-link text-yellow p-0">Resend</a></p>
+
+        <div class="action">
+            <button class="btn btn-primary" type="submit">Next</button>
+        </div>
+    </form>
+</div>
+
+
+
+

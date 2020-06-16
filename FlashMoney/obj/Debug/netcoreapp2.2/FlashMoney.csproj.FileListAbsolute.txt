@@ -1,0 +1,944 @@
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.deps.json
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.json
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.dev.json
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.dll
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csprojAssemblyReference.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CoreCompileInputs.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfoInputs.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfo.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.input.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.output.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorCoreGenerate.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CopyComplete
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Lockout.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWith2fa.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_Layout.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Index.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignIn.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Register.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidatePhone.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignUp.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Transfer.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Success.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\SecureTransaction.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Withdrawal.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Airtime.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\FundWallet.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\AddCard.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Claim.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Balance.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\ClaimMoney.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\RegistrationSuccess.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ResetPin.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Remit.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Pin.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\PinTransfer.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.deps.json
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.json
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.dev.json
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.dll
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csprojAssemblyReference.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CoreCompileInputs.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfoInputs.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfo.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.input.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.output.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorCoreGenerate.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Lockout.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWith2fa.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_Layout.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\EXSignUp.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Index.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\PasswordResetSuccess.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Pin.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Register.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\RegistrationSuccess.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Reset.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ResetPassword.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignIn.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignUp.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidatePhone.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidateResetCode.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\VerifyPin.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_EXSignUp.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordResetSuccess.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordRestError.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationError.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationSuccess.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ResetPassword.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_SignUp.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidatePhone.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidateResetCode.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_VerifyPin.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\Index.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddFailure.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddSuccess.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_CardPin.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\Index.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\AccessDenied.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ErrorPage.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\FAQ.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ResetPin.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Terms.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\AuthPin.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Notification.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Password.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Support.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPin.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPinn.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddFailure.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddSuccess.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_MainLayout.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SettingsLayout.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\AddCard.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Airtime.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\FundWallet.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\PinTransfer.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Success.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Transfer.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Withdrawal.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleAddRecipient.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleOTPAuthentication.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultiplePINAuthentication.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleRecipientList.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTAPAuthentication.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferAuthType.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferError.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferFailure.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferSuccess.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_OTPAuthentication.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_PINAuthentication.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TAPAuthentication.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransError.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferAuthType.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferFailure.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferSuccess.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_AddNewCard.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundAmount.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundFailure.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundSuccess.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_PinValidation.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CopyComplete
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.dll
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.deps.json
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.json
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.dev.json
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CoreCompileInputs.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfoInputs.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfo.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.input.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.output.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorCoreGenerate.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Lockout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWith2fa.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_Layout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\EXSignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\PasswordResetSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Pin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Register.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\RegistrationSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Reset.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ResetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignIn.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidatePhone.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidateResetCode.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\VerifyPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_EXSignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordResetSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordRestError.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationError.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ResetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_SignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidatePhone.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidateResetCode.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_VerifyPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\GetPhone.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_CardPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_GetCard.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\_Transaction.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\AccessDenied.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ErrorPage.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\FAQ.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ResetPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Terms.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\AuthPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Notification.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Password.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Support.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPinn.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_MainLayout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SettingsLayout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\AddCard.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Airtime.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\FundWallet.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\PinTransfer.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Success.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Transfer.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Withdrawal.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleAddRecipient.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleOTPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultiplePINAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleRecipientList.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTAPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferAuthType.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferError.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_OTPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_PINAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TAPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransError.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferAuthType.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_AddNewCard.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundAmount.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_PinValidation.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CopyComplete
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csprojAssemblyReference.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.deps.json
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.json
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.dev.json
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.dll
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csprojAssemblyReference.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CoreCompileInputs.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfoInputs.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfo.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.input.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.output.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorCoreGenerate.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Lockout.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWith2fa.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_Layout.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\EXSignUp.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Index.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\PasswordResetSuccess.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Pin.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Register.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\RegistrationSuccess.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Reset.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ResetPassword.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignIn.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignUp.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidatePhone.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidateResetCode.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\VerifyPin.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_EXSignUp.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordResetSuccess.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordRestError.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationError.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationSuccess.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ResetPassword.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_SignUp.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidatePhone.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidateResetCode.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_VerifyPin.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\GetPhone.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\Index.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddFailure.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddSuccess.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_CardPin.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_GetCard.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\Index.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\_Transaction.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\AccessDenied.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ErrorPage.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\FAQ.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ResetPin.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Terms.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\AuthPin.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Notification.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Password.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Support.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPin.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPinn.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddFailure.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddSuccess.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_MainLayout.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SettingsLayout.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\AddCard.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Airtime.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\FundWallet.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\PinTransfer.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Success.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Transfer.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Withdrawal.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleAddRecipient.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleOTPAuthentication.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultiplePINAuthentication.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleRecipientList.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTAPAuthentication.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferAuthType.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferError.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferFailure.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferSuccess.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_OTPAuthentication.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_PINAuthentication.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TAPAuthentication.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransError.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferAuthType.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferFailure.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferSuccess.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_AddNewCard.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundAmount.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundFailure.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundSuccess.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_PinValidation.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CopyComplete
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.deps.json
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.json
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.dev.json
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.dll
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csprojAssemblyReference.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CoreCompileInputs.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfoInputs.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfo.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.input.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.output.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorCoreGenerate.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Lockout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWith2fa.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_Layout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\EXSignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\PasswordResetSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Pin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Register.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\RegistrationSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Reset.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ResetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignIn.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidatePhone.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidateResetCode.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\VerifyPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_EXSignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordResetSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordRestError.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationError.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ResetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_SignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidatePhone.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidateResetCode.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_VerifyPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\GetPhone.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_CardPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_GetCard.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\_Transaction.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\AccessDenied.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ErrorPage.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\FAQ.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ResetPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Terms.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\AuthPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Notification.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Password.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Support.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPinn.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_MainLayout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SettingsLayout.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\AddCard.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Airtime.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\FundWallet.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\PinTransfer.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Success.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Transfer.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Withdrawal.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleAddRecipient.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleOTPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultiplePINAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleRecipientList.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTAPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferAuthType.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferError.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_OTPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_PINAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TAPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransError.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferAuthType.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_AddNewCard.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundAmount.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_PinValidation.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CopyComplete
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\GoBackFund.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\GoBackWallet.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.deps.json
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.json
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.dev.json
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.dll
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CoreCompileInputs.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfoInputs.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfo.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.input.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.output.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorCoreGenerate.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Lockout.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWith2fa.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_Layout.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\EXSignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\PasswordResetSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Pin.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Register.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\RegistrationSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Reset.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ResetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignIn.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidatePhone.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidateResetCode.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\VerifyPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_EXSignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordResetSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordRestError.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationError.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ResetPassword.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_SignUp.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidatePhone.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidateResetCode.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_VerifyPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\GetPhone.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_CardPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_GetCard.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\_Transaction.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\AccessDenied.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ErrorPage.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\FAQ.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ResetPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Terms.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\AuthPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Notification.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Password.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Support.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPin.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPinn.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_MainLayout.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SettingsLayout.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\AddCard.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Airtime.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\FundWallet.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\GoBackFund.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\GoBackWallet.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\PinTransfer.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Success.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Transfer.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Withdrawal.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleAddRecipient.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleOTPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultiplePINAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleRecipientList.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTAPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferAuthType.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferError.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_OTPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_PINAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TAPAuthentication.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransError.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferAuthType.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_AddNewCard.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundAmount.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundFailure.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundSuccess.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_PinValidation.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CopyComplete
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csprojAssemblyReference.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\GoBackUpload.g.cshtml.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\GoBackUpload.g.cshtml.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\libman.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.deps.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.runtimeconfig.dev.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.dll
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\bin\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csprojAssemblyReference.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CoreCompileInputs.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorAssemblyInfo.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfoInputs.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.AssemblyInfo.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.input.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.TagHelpers.output.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorCoreGenerate.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\EXSignUp.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Index.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\PasswordResetSuccess.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Pin.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Register.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\RegistrationSuccess.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Reset.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ResetPassword.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignIn.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignUp.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidatePhone.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\ValidateResetCode.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\VerifyPin.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_EXSignUp.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordResetSuccess.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_PasswordRestError.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationError.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_RegistrationSuccess.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ResetPassword.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_SignUp.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidatePhone.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ValidateResetCode.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_VerifyPin.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\GetPhone.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\Index.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddFailure.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_AddSuccess.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_CardPin.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Card\_GetCard.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\Index.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\History\_Transaction.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\AccessDenied.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ErrorPage.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\FAQ.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\ResetPin.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Home\Terms.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\AuthPin.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Notification.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Password.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Support.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPin.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\TransactionPinn.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddFailure.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Settings\_AddSuccess.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_MainLayout.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SettingsLayout.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\AddCard.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Airtime.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\FundWallet.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\GoBackFund.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\GoBackUpload.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\GoBackWallet.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\PinTransfer.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Success.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Transfer.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\Withdrawal.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleAddRecipient.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleOTPAuthentication.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultiplePINAuthentication.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleRecipientList.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTAPAuthentication.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferAuthType.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferError.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferFailure.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_MultipleTransferSuccess.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_OTPAuthentication.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_PINAuthentication.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TAPAuthentication.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransError.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferAuthType.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferFailure.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Transaction\_TransferSuccess.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_AddNewCard.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundAmount.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundFailure.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_FundSuccess.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\Wallet\_PinValidation.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.RazorTargetAssemblyInfo.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.Views.pdb
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.dll
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.pdb
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.genruntimeconfig.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoney\obj\Debug\netcoreapp2.2\FlashMoney.csproj.CopyComplete

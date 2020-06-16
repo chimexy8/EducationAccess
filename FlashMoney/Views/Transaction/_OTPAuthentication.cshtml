@@ -1,0 +1,70 @@
+﻿@using System.Globalization
+@model FlashMoney.Models.TransactionModel
+
+
+<div class="card form-card">
+    <!-- Loading  -->
+    <div class="form-section loading">
+        <div class="la-ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- OTP Token -->
+    <div class="form-section fund-trn-otptoken active">
+        <div class="head sub">
+            <a href="#" class="btn btn-link form-link" data-link="fund-trn-authpin">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Flash Money</h4>
+        </div>
+        <form asp-action="OTPTransfer" asp-controller="Transaction" method="post">
+            <div class="summary-card">
+                <div class="avater">
+                    <img src="~/assets/img/png/avatar.png" />
+                    <p>
+                        @if (!string.IsNullOrEmpty(Model.Receipient))
+                        {
+                            <strong>@Model.Receipient</strong>
+                        }
+
+                        <span>@Model.DestinationPhone</span>
+                    </p>
+                </div>
+                <div class="sum">
+                    <strong>@Model.Amount.ToString("c", new CultureInfo("ha-Latn-NG"))</strong>
+                    <label>Charge: <em>@Model.TransacrtionCharge.ToString("c", new CultureInfo("ha-Latn-NG"))</em></label>
+                </div>
+            </div>
+
+            <p class="auth_pin_text">A <strong>six digit token (OTP)</strong> was sent to you, enter token below</p>
+            <input asp-for="DestinationPhone" type="hidden" />
+            <input asp-for="Amount" type="hidden" />
+            <input asp-for="Narration" type="hidden" />
+            <input asp-for="Pin" type="hidden" />
+            <input asp-for="TransacrtionCharge" placeholder="Phone Number" type="hidden" />
+            <input asp-for="AuthType" type="hidden" />
+
+            <div class="input-pin x6">
+                <input asp-for="One" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Two" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Three" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Four" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Five" type="text" placeholder="*" autocomplete=“off”/>
+                <input asp-for="Six" type="text" placeholder="*" autocomplete=“off”/>
+            </div>
+            @*<p>Didn't get code <a href="#" class="btn btn-link text-yellow p-0">Resend</a></p>*@
+            <div class="action">
+                <button class="btn btn-primary " type="submit" id="CompleteOTPTransfer">Continue</button>
+            </div>
+        </form>
+    </div>
+</div>

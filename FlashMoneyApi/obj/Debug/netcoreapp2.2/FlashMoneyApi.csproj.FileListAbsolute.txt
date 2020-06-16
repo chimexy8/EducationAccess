@@ -1,0 +1,102 @@
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.deps.json
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.json
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.dev.json
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csprojAssemblyReference.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csproj.CoreCompileInputs.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfoInputs.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfo.cs
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorTargetAssemblyInfo.cache
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\Chima\source\repos\FlashMoney\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.deps.json
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.json
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.dev.json
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csprojAssemblyReference.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csproj.CoreCompileInputs.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfoInputs.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfo.cs
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorTargetAssemblyInfo.cache
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\Chima\Desktop\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.deps.json
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.json
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.dev.json
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csprojAssemblyReference.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csproj.CoreCompileInputs.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfoInputs.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfo.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorTargetAssemblyInfo.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\MEXY\Desktop\New folder\flashmoneyweb\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.deps.json
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.json
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.dev.json
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csprojAssemblyReference.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csproj.CoreCompileInputs.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfoInputs.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfo.cs
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorTargetAssemblyInfo.cache
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\Sadiq Oyapero\Documents\dev\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.deps.json
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.json
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.dev.json
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csprojAssemblyReference.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csproj.CoreCompileInputs.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfoInputs.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfo.cs
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorTargetAssemblyInfo.cache
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\MEXY\Desktop\New folder\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.deps.json
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.json
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.dev.json
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csproj.CoreCompileInputs.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfoInputs.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfo.cs
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorTargetAssemblyInfo.cache
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\MEXY\Desktop\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csprojAssemblyReference.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.deps.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.runtimeconfig.dev.json
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\bin\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csprojAssemblyReference.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.csproj.CoreCompileInputs.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorAssemblyInfo.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfoInputs.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.AssemblyInfo.cs
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.RazorTargetAssemblyInfo.cache
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.dll
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.pdb
+C:\Users\23470\Desktop\Work\Work\flashmoneywebv2\FlashMoneyApi\obj\Debug\netcoreapp2.2\FlashMoneyApi.genruntimeconfig.cache

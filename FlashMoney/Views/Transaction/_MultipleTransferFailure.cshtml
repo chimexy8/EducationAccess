@@ -1,0 +1,43 @@
+﻿@model FlashMoney.DTO.TransferStatus
+<div class="card form-card">
+    <!-- Loading  -->
+    <div class="form-section loading">
+        <div class="la-ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Success & Error -->
+    <div class="form-section alert sub error active">
+        <div class="head">
+            <h4>Flash Money</h4>
+        </div>
+        <img src="~/assets/img/png/alert-success.png" class="success-img" />
+        <img src="~/assets/img/png/alert-error.png" class="error-img" />
+
+        <h3>Failed</h3><br /><br />
+        @if (ViewBag.Sendingtome != null)
+        {
+            <p><strong>@ViewBag.Sendingtome</strong></p>
+        }
+        <p><strong>@Model?.Message</strong></p>
+
+        @*<div class="sub-info">
+            <i class="icon">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.83266 6.49837H8.16599V4.83171H9.83266V6.49837ZM9.83266 13.165H8.16599V8.165H9.83266V13.165ZM8.99932 0.665039C4.39684 0.665039 0.666016 4.39586 0.666016 8.99833C0.666016 13.6009 4.39684 17.3317 8.99932 17.3317C13.6018 17.3317 17.3327 13.6009 17.3327 8.99833C17.3327 4.39586 13.6018 0.665039 8.99932 0.665039Z"
+                          fill="#2F1343" />
+                </svg>
+            </i>
+            <p>
+                <strong>Note:</strong> You can reclaim funds after <strong>7 days</strong> if
+                recipients does not activate or withdraw funds
+            </p>
+        </div>*@
+        <a class="btn btn-primary" asp-action="Index" asp-controller="Home">Continue</a>
+    </div>
+
+</div>

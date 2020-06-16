@@ -1,0 +1,21 @@
+﻿@model FlashMoney.DTO.PinDTO
+@{
+    ViewData["Title"] = "RegistrationSuccess";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Success & Error -->
+<div class="form-section alert success active">
+    <img src="~/assets/img/png/alert-success.png" class="success-img" />
+    <img src="~/assets/img/png/alert-error.png" class="error-img" />
+
+    <h3>Account Created</h3>
+    <p>Your account has been set up successfully</p><br />
+
+    @*<h3>Your New Pin</h3>
+    <p>Please memorize your PIN. It can only be change at the bank</p>
+    <h2>@Model.Pin</h2>*@
+    <a class="btn btn-primary reg-success-btn" asp-action="Index" asp-controller="Home" asp-route-Pin="@Model.Pin">Continue</a>
+</div>
+

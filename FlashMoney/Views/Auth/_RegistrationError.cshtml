@@ -1,0 +1,29 @@
+﻿@model FlashMoney.DTO.TransferStatus
+<!-- Loading  -->
+<div class="form-section loading">
+    <div class="la-ball-pulse">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- Success & Error -->
+<div class="form-section alert error active">
+    <img src="~/assets/img/png/alert-success.png" class="success-img" />
+    <img src="~/assets/img/png/alert-error.png" class="error-img" />
+
+    <h3>Error </h3>
+    @*@if (ViewBag.InvalidEmail)
+    {
+
+    }
+    else
+    {
+
+    }*@
+    <p>An Error was encountered while creating your account</p><br />
+
+     <p><strong>@Model?.Message</strong></p>
+       
+    <a class="btn btn-primary" asp-action="SignIn" asp-controller="Auth">Continue</a>
+</div>

@@ -1,0 +1,286 @@
+﻿@using System.Globalization
+@model FlashMoney.DTO.UserCardsDTO
+
+<div class="card form-card">
+    <!-- Loading  -->
+    <div class="form-section loading">
+        <div class="la-ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+
+    <!-- Enter Amount -->
+    <div class="form-section wallet-amount active">
+        <div class="head sub">
+            <a href="#" class="btn btn-link" id="GoBackWalletButton">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Fund Wallet</h4>
+        </div>
+        @*<form asp-action="Pin" asp-controller="Wallet" method="post">*@
+        <form asp-action="FundWallet" asp-controller="Wallet" method="post">
+
+            <p>Add funds to your wallet so you can perform tarnsactions with</p>
+            <span class="error_message"></span>
+            <div class="input with-icon left">
+                <i class="icon auto">
+                    <svg width="12" height="15" viewBox="0 0 12 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.4"
+                              d="M1.7602 15.0002V9.86022H0.200195V8.58022H1.7602V6.94022H0.200195V5.66022H1.7602V0.720215H3.8402L5.7402 5.66022H8.1002V0.720215H9.6802V5.66022H11.2402V6.94022H9.6802V8.58022H11.2402V9.86022H9.6802V15.0002H7.5802L5.6802 9.86022H3.3202V15.0002H1.7602ZM3.2802 5.66022H4.1202L3.2802 3.18022H3.2002L3.2802 5.66022ZM3.3202 8.58022H5.2002L4.6002 6.94022H3.2802L3.3202 8.58022ZM6.8002 8.58022H8.1402L8.1002 6.94022H6.2002L6.8002 8.58022ZM8.1002 12.1802H8.1802L8.1202 9.86022H7.2802L8.1002 12.1802Z"
+                              fill="#2F1343" />
+                    </svg>
+                </i>
+                <input asp-for="Amount" placeholder="Amount to Send" class="fund_amount currency" />
+                <label>Amount to Send</label>
+            </div>
+            <span class="cc_charge d-none">@Model.Charge</span>
+            @if (Model.Charge > 0)
+            {
+                <div class="total_amount">Total Amount: <span class="outter_total_charge">₦<span class="total_charge">@Model.Charge</span></span><span class="include">&nbsp;&nbsp;(includes payment gateway charge)</span></div>
+            }
+
+            <p class="m-0">Select Source:</p>
+
+            <div class="select-list">
+                @foreach (var item in Model.Cards)
+                {
+                    var active = item.Active ? "active" : "";
+                    <div class="item @active">
+                        <img src="~/assets/img/png/card-master.png" />
+                        <p>
+                            <input asp-for="@item.Id" class="Id" type="hidden" />
+                            <strong>@item.CardNumber</strong>
+                            <span class="ellipsis">Expiry Date: @item.CardExpMonth/@item.CardExpYear</span>
+                        </p>
+                        <i class="icon auto check">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 7.00015L9 19.0001L3.5 13.5001L4.91421 12.0859L9 16.1717L19.5858 5.58594L21 7.00015Z"
+                                      fill="#6AC895" />
+                            </svg>
+                        </i>
+                    </div>
+                }
+                <a class="item link" id="AddCardInline">
+                    <i class="icon auto">
+                        <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.4992 11.9998H19.9992V13.6665H17.4992V16.1665H15.8325V13.6665H13.3325V11.9998H15.8325V9.49984H17.4992V11.9998ZM15.832 3.66488V1.99821H2.4987V3.66488H15.832ZM15.832 6.99825H2.4987V11.9982H11.6659V13.6648H2.4987C1.57785 13.6648 0.832031 12.9199 0.832031 11.9982L0.840374 1.99821C0.840374 1.07651 1.57785 0.331543 2.4987 0.331543H15.832C16.7529 0.331543 17.4987 1.07651 17.4987 1.99821V7.83317H15.832V6.99825Z"
+                                  fill="#FBB700" />
+                        </svg>
+                    </i>
+                    <p>
+                        <strong>Add New Debit/Credit Card</strong>
+                        <span class="ellipsis">mastercard, visa, etc..</span>
+                    </p>
+                    <i class="icon auto arrow">
+                        <svg width="7" height="11" viewBox="0 0 7 11" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.154297 9.82022L3.97599 5.99855L0.154297 2.17687L1.33263 0.998535L6.33265 5.99855L1.33263 10.9986L0.154297 9.82022Z"
+                                  fill="#101010" />
+                        </svg>
+                    </i>
+                </a>
+            </div>
+
+
+
+            <div class="action">
+                <button class="btn btn-primary" type="submit" id="FundWalletButton">Continue</button>
+                @*<button class="btn btn-primary" type="submit" id="GoToPinButton">Continue</button>*@
+            </div>
+        </form>
+    </div>
+    <!-- Success & Error -->
+    <div class="form-section alert sub success">
+        <div class="head">
+            <h4>Add New Card</h4>
+        </div>
+        <img src="~/assets/img/png/alert-success.png" class="success-img" />
+
+        <h3>Add New Card Successful!!</h3>
+        <p>Your card <strong>(** <span class="last-four"></span>)</strong> has been added to your account. You can now fund your wallet and perform other card-related transactions</p>
+
+        <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Continue</a>
+    </div>
+
+    <div class="form-section alert sub error">
+        <div class="head">
+            <h4>Add New Card</h4>
+        </div>
+        <img src="~/assets/img/png/alert-error.png" class="error-img" />
+
+        <h3>Add New Card Failed!!</h3>
+        <p>Unable to add your card <strong>(** <span class="last-four"></span>)</strong> to your account. The reason is below:</p>
+        <p class="fail-message"></p>
+
+        <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Continue</a>
+    </div>
+
+    <!-- Card Info -->
+    <form id="cc-form" method="post">
+        <div class="form-section card-info" data-default="true">
+            <div class="head sub">
+                <a href="#" class="btn btn-link form-link" data-link="wallet-amount">
+                    <i class="icon auto">
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                  fill="#5D2684" />
+                        </svg>
+                    </i>
+                </a>
+                <h4>Add New Card</h4>
+            </div>
+
+            <p>Enter your debit or credit card details to add your card to your account</p>
+            <span class="cc-form-errors hidden error_message"></span>
+            <div class="row">
+                <div class="col-12">
+                    <div class="input with-icon left">
+                        <img class="credit-card-type" src="/assets/img/png/nocard.png" height="20" />
+                        <input required name="number" class="credit-card" type="text" placeholder="Card Number" />
+                        <label>Card Number</label>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="input with-icon">
+                        <i class="icon auto">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.3">
+                                    <path d="M5.83333 10.0001H7.5V11.6667H5.83333V10.0001ZM17.5 5.00007V16.6667C17.5 17.5834 16.75 18.3334 15.8333 18.3334H4.16667C3.24167 18.3334 2.5 17.5834 2.5 16.6667L2.50833 5.00007C2.50833 4.08341 3.24167 3.33341 4.16667 3.33341H5V1.66675H6.66667V3.33341H13.3333V1.66675H15V3.33341H15.8333C16.75 3.33341 17.5 4.08341 17.5 5.00007ZM4.16667 6.66674H15.8333V5.00007H4.16667V6.66674ZM15.8333 16.6667V8.33341H4.16667V16.6667H15.8333ZM12.5 11.6667V10.0001H14.1667V11.6667H12.5ZM9.16667 11.6667V10.0001H10.8333V11.6667H9.16667ZM5.83333 13.3334H7.5V15.0001H5.83333V13.3334ZM12.5 15.0001V13.3334H14.1667V15.0001H12.5ZM9.16667 15.0001V13.3334H10.8333V15.0001H9.16667Z"
+                                          fill="#101010" />
+                                </g>
+                            </svg>
+                        </i>
+                        <input name="expiry" class="expire" type="text" placeholder="Expiring Date" />
+                        <label>Expiring Date</label>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="input with-icon" data-toggle="tooltip" data-placement="bottom"
+                         title="Find the CVV three digit (***) number at the back of your card">
+                        <i class="icon auto">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.3">
+                                    <path d="M10.8327 7.49837H9.16599V5.83171H10.8327V7.49837ZM10.8327 14.165H9.16599V9.165H10.8327V14.165ZM9.99932 1.66504C5.39684 1.66504 1.66602 5.39586 1.66602 9.99833C1.66602 14.6009 5.39684 18.3317 9.99932 18.3317C14.6018 18.3317 18.3327 14.6009 18.3327 9.99833C18.3327 5.39586 14.6018 1.66504 9.99932 1.66504Z"
+                                          fill="#101010" />
+                                </g>
+                            </svg>
+                        </i>
+                        <input name="cvv" type="password" placeholder="CVV" maxlength="3" class="cvv"/>
+                        <label>CVV</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action">
+                <a class="btn btn-primary form-link-next" data-link="card-pin"
+                   data-option="load">Continue</a>
+            </div>
+
+        </div>
+
+        <!-- Card PIN -->
+        <div class="form-section card-pin">
+            <div class="head sub">
+                <a href="#" class="btn btn-link form-link" data-link="card-info">
+                    <i class="icon auto">
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                                  fill="#5D2684" />
+                        </svg>
+                    </i>
+                </a>
+                <h4>Add New Card</h4>
+            </div>
+
+            <div class="summary-card">
+                <div class="avater">
+                    <img src="~/assets/img/png/nocard.png" class="card-type-processing" />
+                    <p>
+                        <strong>**** **** **** <span class="last-four"></span></strong>
+                        <span>Expires: <span class="expiry-dd"></span></span>
+                    </p>
+                </div>
+            </div>
+
+            <p>Enter your <strong>4-digit</strong> card PIN</p>
+            <span class="cc-form-errors hidden error_message"></span>
+            <div class="input-pin x4">
+                <input name="pin1" type="password" placeholder="*" autocomplete=“off” />
+                <input name="pin2" type="password" placeholder="*" autocomplete=“off” />
+                <input name="pin3" type="password" placeholder="*" autocomplete=“off” />
+                <input name="pin4" type="password" placeholder="*" autocomplete=“off” />
+            </div>
+            <div class="action">
+                <a class="btn btn-primary form-link-card" data-link="alert"
+                   data-option="success">Continue</a>
+            </div>
+
+        </div>
+    </form>
+    <!-- Card OTP -->
+    <div class="form-section card-otp">
+        <div class="head sub">
+            <a href="#" class="btn btn-link form-link" data-link="card-info">
+                <i class="icon auto">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 6.61564V8.42502H3.98955L9.49477 13.4055L8.08057 14.6849L0.161133 7.52033L8.08057 0.355713L9.49477 1.63513L3.98955 6.61564H16Z"
+                              fill="#5D2684" />
+                    </svg>
+                </i>
+            </a>
+            <h4>Add New Card</h4>
+        </div>
+        <form id="get-otp" method="post">
+            <div class="summary-card">
+                <div class="avater">
+                    <img src="~/assets/img/png/nocard.png" />
+                    <p>
+                        <strong>**** **** **** <span class="last-four"></span></strong>
+                        <span>Expires: <span class="expiry-dd"></span></span>
+                    </p>
+                </div>
+            </div>
+
+            <p>Enter your OTP to complete adding your card</p>
+
+            <div class="input-pin x6">
+                <input required name="otp1" type="text" placeholder="*" />
+                <input required name="otp2" type="text" placeholder="*" />
+                <input required name="otp3" type="text" placeholder="*" />
+                <input required name="otp4" type="text" placeholder="*" />
+                <input required name="otp5" type="text" placeholder="*" />
+                <input required name="otp6" type="text" placeholder="*" />
+            </div>
+            <div class="action">
+                <a id="save-code" class="btn btn-primary" data-link="alert"
+                   data-option="success">Add Card</a>
+            </div>
+        </form>
+
+    </div>
+    <!-- Card 3DS -->
+    <div class="form-section card-3ds">
+        <div class="head sub">
+            <h4>Authorise New Card</h4>
+        </div>
+        <iframe src="" id="iframe-3ds" width="100%" height="400px" style="border: 0;"></iframe>
+    </div>
+</div>

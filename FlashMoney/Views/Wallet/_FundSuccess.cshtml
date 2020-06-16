@@ -1,0 +1,31 @@
+﻿@using System.Globalization
+@model FlashMoney.DTO.FundWalletDTO
+<div class="card form-card">
+    <!-- Loading  -->
+    <div class="form-section loading">
+        <div class="la-ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Success & Error -->
+    <div class="form-section alert sub success active">
+        <div class="head">
+            <h4>Fund Wallet</h4>
+        </div>
+        <img src="~/assets/img/png/alert-success.png" class="success-img" />
+        <img src="~/assets/img/png/alert-error.png" class="error-img" />
+
+        <h3>Funds Wallet Successful!</h3>
+        <p>
+            <strong>@Model.Amount.ToString("c", new CultureInfo("ha-Latn-NG"))</strong> has been added to your wallet, click continue to perform other
+            transactions
+        </p>
+
+        <a class="btn btn-primary" asp-action="Index" asp-controller="Home">Continue</a>
+    </div>
+
+
+</div>

@@ -1,0 +1,23 @@
+﻿
+@model FlashMoney.DTO.PinDTO
+<!-- Loading  -->
+<div class="form-section loading">
+    <div class="la-ball-pulse">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- Success & Error -->
+<div class="form-section alert success active" id="Reg-form-card-Resp">
+    <img src="~/assets/img/png/alert-success.png" class="success-img" />
+    <img src="~/assets/img/png/alert-error.png" class="error-img" />
+
+    <h3>Account Created</h3>
+    <p>Your account has been successfully set up!</p><br />
+
+    @*<h3>Your New Pin</h3>
+        <p>Please memorize your PIN. It can only be changed at the bank</p>
+        <h2>@Model.Pin</h2>*@
+    <a class="btn btn-primary reg-success-btn" asp-action="Index" asp-controller="Home" asp-route-Pxt="New">Continue</a>
+</div>

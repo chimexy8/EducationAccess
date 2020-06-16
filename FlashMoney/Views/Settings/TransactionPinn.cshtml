@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewData["Title"] = "TransactionPinn";
+    ViewData["Header"] = "Settings";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<section class="content settings">
+    <div class="contianer">
+        <div class="card animated fadeInUp fast delay-1">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="category-cats">
+                        <div class="category-nav-wrap">
+                            <div class="category-nav">
+                                <label>Profile</label>
+                                <a class="item " asp-action="Index" asp-controller="Settings">
+                                    <strong>Update Profile</strong>
+                                    <p class="ellipsis">Change bio, name and other KYC info</p>
+                                </a>
+                                <a class="item active" asp-action="Password" asp-controller="Settings">
+                                    <strong>Change Password</strong>
+                                    <p class="ellipsis">Update security by changing your password.</p>
+                                </a>
+                                <a class="item" asp-action="AuthPin" asp-controller="Settings">
+                                    <strong>Auth/USSD PIN</strong>
+                                    <p class="ellipsis">4 digit PIN for transaction below 20k</p>
+                                </a>
+                                <a class="item" asp-action="TransactionPin" asp-controller="Settings">
+                                    <strong>Transaction PIN (Empty)</strong>
+                                    <p class="ellipsis">4 digit PIN for transaction above 20k</p>
+                                </a>
+                                <a class="item no-outline active" asp-action="TransactionPinn" asp-controller="Settings">
+                                    <strong>Transaction PIN</strong>
+                                    <p class="ellipsis">4 digit PIN for transaction above 20k</p>
+                                </a>
+
+                                <label>Others</label>
+                                <a class="item" asp-action="Notification" asp-controller="Settings">
+                                    <strong>Notifcation & Alerts</strong>
+                                    <p class="ellipsis">Configure how u want to recieve notifications</p>
+                                </a>
+                                <a class="item no-outline" asp-action="Support" asp-controller="Settings">
+                                    <strong>Support</strong>
+                                    <p class="ellipsis">Our contact informations and support channels</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-md-8">
+                    <div class="setting-content">
+
+
+
+
+
+
+                    </div>
+                    <!-- Loading -->
+                    <div class="loading">
+                        <div class="la-ball-pulse">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

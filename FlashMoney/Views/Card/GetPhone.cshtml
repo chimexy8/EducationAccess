@@ -1,0 +1,65 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<form>
+    <div class="summary-card">
+        <div class="avater">
+            <i class="icon auto">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.2528 19.4967V20.7483C23.2528 22.1217 22.123 23.2513 20.7497 23.2513H3.25117C1.86523 23.2513 0.748047 22.1217 0.748047 20.7483V3.24982C0.748047 1.87638 1.86523 0.74707 3.25117 0.74707H20.7497C22.123 0.74707 23.2528 1.87638 23.2528 3.24982V4.50138H12.0043C10.6122 4.50138 9.50117 5.62482 9.50117 6.99669V17.0013C9.50117 18.3748 10.6122 19.4967 12.0043 19.4967H23.2528ZM12.0043 17.0013H24.5043V6.99669H12.0043V17.0013ZM17.0027 13.8763C15.9653 13.8763 15.1293 13.0404 15.1293 12.0029C15.1293 10.9639 15.9653 10.1217 17.0027 10.1217C18.0403 10.1217 18.8762 10.9639 18.8762 12.0029C18.8762 13.0404 18.0403 13.8763 17.0027 13.8763Z"
+                          fill="#5D2684" />
+                </svg>
+            </i>
+            <p>
+                <strong>₦@ViewBag.Amount</strong>
+                <span>Amount to be add to your wallet</span>
+            </p>
+        </div>
+    </div>
+
+    <p class="m-0">Select how you want to authorize this transaction to:</p>
+    <div class="select-list">
+        <div class="item form-link" data-link="wallet-otptoken">
+            <i class="icon auto">
+                <svg width="13" height="27" viewBox="0 0 13 27" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.64037 0.424805C8.93011 0.424805 8.35832 0.9966 8.35832 1.70686V5.55301H3.23012C1.80959 5.55301 0.666016 6.6966 0.666016 8.11711V23.5017C0.666016 24.9222 1.80959 26.0658 3.23012 26.0658H9.64037C11.0609 26.0658 12.2045 24.9222 12.2045 23.5017V8.11711C12.2045 7.16698 11.6863 6.34916 10.9224 5.90609V1.70686C10.9224 0.9966 10.3506 0.424805 9.64037 0.424805ZM3.23012 8.11711H9.64037V14.5274H3.23012V8.11711ZM3.23012 17.0915H4.51217V18.3735H3.23012V17.0915ZM5.79422 17.0915H7.07627V18.3735H5.79422V17.0915ZM8.35832 17.0915H9.64037V18.3735H8.35832V17.0915ZM3.23012 19.6556H4.51217V20.9376H3.23012V19.6556ZM5.79422 19.6556H7.07627V20.9376H5.79422V19.6556ZM8.35832 19.6556H9.64037V20.9376H8.35832V19.6556ZM3.23012 22.2197H4.51217V23.5017H3.23012V22.2197ZM5.79422 22.2197H7.07627V23.5017H5.79422V22.2197ZM8.35832 22.2197H9.64037V23.5017H8.35832V22.2197Z"
+                          fill="#FBB700" />
+                </svg>
+            </i>
+            <p>
+                <strong>Send OTP to Mobile Phone</strong>
+                @{ var phone = $"+234**********{ViewBag.Phone.Substring(ViewBag.Phone.Length - 2)} ";}
+                <span class="ellipsis">A code will be sent to +234**********59 </span>
+            </p>
+            <i class="icon auto check">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 7.00015L9 19.0001L3.5 13.5001L4.91421 12.0859L9 16.1717L19.5858 5.58594L21 7.00015Z"
+                          fill="#6AC895" />
+                </svg>
+            </i>
+        </div>
+        <div class="item form-link" data-link="wallet-transpin">
+            <i class="icon auto">
+                <svg width="17" height="20" viewBox="0 0 17 20" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.18182 0L0 3.63636V9.09091C0 14.1364 3.49091 18.8545 8.18182 20C12.8727 18.8545 16.3636 14.1364 16.3636 9.09091V3.63636L8.18182 0ZM8.18182 5.45455C9.45455 5.45455 10.728 6.45455 10.728 7.72727V9.09091C11.2735 9.09091 11.8182 9.63709 11.8182 10.2735V13.4553C11.8182 14.0007 11.272 14.5455 10.6356 14.5455H5.63565C5.0902 14.5455 4.54545 13.9993 4.54545 13.3629V10.1811C4.54545 9.63564 5.0902 9.09091 5.63565 9.09091V7.72727C5.63565 6.45455 6.90909 5.45455 8.18182 5.45455ZM8.18182 6.54473C7.45455 6.54473 6.81818 7 6.81818 7.72727V9.09091H9.54545V7.72727C9.54545 7 8.90909 6.54473 8.18182 6.54473Z"
+                          fill="#FBB700" />
+                </svg>
+            </i>
+            <p>
+                <strong>Use Transaction PIN</strong>
+                <span class="ellipsis">A four digit PIN for 20k+ transactions</span>
+            </p>
+            <i class="icon auto check">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 7.00015L9 19.0001L3.5 13.5001L4.91421 12.0859L9 16.1717L19.5858 5.58594L21 7.00015Z"
+                          fill="#6AC895" />
+                </svg>
+            </i>
+        </div>
+    </div>
+</form>
