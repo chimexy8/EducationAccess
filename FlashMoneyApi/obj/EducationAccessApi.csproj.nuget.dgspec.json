@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\23470\\Desktop\\Work\\EducationAccess2.0\\FlashMoneyApi\\EducationAccessApi.csproj": {}
+    "C:\\Users\\User\\Music\\scholar\\EducationAccess2.0\\FlashMoneyApi\\EducationAccessApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\23470\\Desktop\\Work\\EducationAccess2.0\\FlashMoneyApi\\EducationAccessApi.csproj": {
+    "C:\\Users\\User\\Music\\scholar\\EducationAccess2.0\\FlashMoneyApi\\EducationAccessApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\23470\\Desktop\\Work\\EducationAccess2.0\\FlashMoneyApi\\EducationAccessApi.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Music\\scholar\\EducationAccess2.0\\FlashMoneyApi\\EducationAccessApi.csproj",
         "projectName": "EducationAccessApi",
-        "projectPath": "C:\\Users\\23470\\Desktop\\Work\\EducationAccess2.0\\FlashMoneyApi\\EducationAccessApi.csproj",
-        "packagesPath": "C:\\Users\\23470\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\23470\\Desktop\\Work\\EducationAccess2.0\\FlashMoneyApi\\obj\\",
+        "projectPath": "C:\\Users\\User\\Music\\scholar\\EducationAccess2.0\\FlashMoneyApi\\EducationAccessApi.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Music\\scholar\\EducationAccess2.0\\FlashMoneyApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\23470\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -131,7 +131,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
